@@ -10,13 +10,169 @@ img .fullwidth { /* non funziona, perché? */
   color: rgba(0, 0, 0, 0.6);
   line-height: 32px;
   padding: 0 12px;
-  border-radius: 16px;
+  border-radius: 40px;
   background-color: #e4e4e4;
 }
 
+ul.dashed{
+    margin-top: -10px;
+}
+ul.dashed > li{
+    padding-left: 15px !important;
+    text-indent: -5px;
+}
 
-span {
-    text-align: justify;
+ul.dashed > li:before{
+    content: "-";
+    width: 10px;
+    margin-left: -5px;
+    display: inline-block;
+}
+.tabs .indicator{
+    background-color: $color-type2 !important;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+    background-color: $color-type2-light !important;
+}
+
+.card-action.text-right{
+    text-align: right;
+}
+
+.card-action.text-right a{
+    margin-right: 44px !important;
+    margin-left: 44px !important;
+}
+
+.collapsible-header > .row{
+    flex:auto;
+    margin:0px;
+}
+
+.card .collapsible{
+    box-shadow: none;
+    border-left: none;
+    border-right: none;
+}
+
+.card .collapsible .collapsible-header{
+    padding-left:0px;
+    padding-right:0px;
+}
+
+.card .collapsible .collapsible-header .row div.col:first-of-type{
+    padding-left:0px;
+    text-align: center;
+}
+
+.card .collapsible .collapsible-header .row div.col:last-of-type{
+    padding-right:0px;
+}
+
+.collapsible-header i:not(.material-icons){
+    width: auto;
+    font-size: inherit;
+    display: inline;
+    text-align: inherit;
+}
+
+.card-action.text-right a{
+    display: inline-flex;
+    vertical-align: baseline;
+}
+
+.card-action.text-right i.material-icons{
+    margin-right: 6px;
+}
+
+
+.card-title-custom{
+    font-size: 18pt !important;
+    font-weight: 500 !important;
+    margin-bottom: 1em;
+    text-align: left !important;
+    line-height: auto !important;
+    display: inline-block;
+}
+
+.card-title-custom.activator,
+.card-title-custom.closer{
+    display:flex !important;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card-title-custom.closer i.material-icons{
+    margin-top: 4px;
+}
+.card.zoom-image .card-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#gradient-nav{
+    position:absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0px;
+    right: 0px;
+    z-index: 990;
+    //background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 20%, rgba(0,0,0,0) 99%);
+    background: rgba(0,0,0, 0.4);
+
+}
+ #chevron-banner{
+     position: absolute;
+     bottom: 20px;
+     right: 40px;
+     color: white;
+     z-index:999;
+     cursor: pointer
+ }
+ #chevron-banner i{
+      font-size: 60px;
+}
+
+ #banner-description{
+     position:absolute;
+     z-index: 999;
+     left:0;
+     right:0;
+     top: 20%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     color:white;
+     text-transform: uppercase;
+     font-weight: 300;
+     font-size: 16pt;
+}
+
+
+#banner-description img{
+    margin-bottom: 1em;
+    height: 250px;
+}
+
+#banner-description div{
+    text-align: center;
+}
+
+.slider{
+    z-index: 50;
+}
+.slider .indicators{
+    z-index: 999 !important;
+}
+.schedule-day{
+    font-size:16pt;
+margin: 1.0933333333rem 0 0.656rem 0;
+}
+.schedule-day i.material-icons{
+    font-size:20pt;
+    margin-right: 5px;
 }
 
 //sets color for font-awesome icons
@@ -42,6 +198,47 @@ width: 100%;
 padding: 20px 0 0 0;
 }
 
+#regform{
+    width: 100%;
+    height: 720px;
+}
+
+.card.custom .card-image{
+    height: 200px;
+    overflow: hidden;
+}
+
+.left-padding{
+    padding-left: 4em !important;
+    text-indent: -0.3em;
+}
+
+.left-padding:before{
+    content: "-";
+    width: 1em;
+    margin-left: -0.7em;
+    display: inline-block;
+}
+
+#overlay{
+    @extend .black;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    opacity:0.5;
+    z-index: 60;
+    display: none;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.italic {
+    font-style: italic;
+}
 #index-page h2 { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
 
 #index-page h3 { font-size: $h4-fontsize; line-height: 110%; margin: ($h4-fontsize / 2) 0 ($h4-fontsize / 2.5) 0;}
@@ -51,3 +248,156 @@ padding: 20px 0 0 0;
 #foto-eventi { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
 
 #index-collection-eventi span { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 2) 0 ($h5-fontsize / 2.5) 0;}
+
+
+// Redesign delle CARDS
+
+// Variabili rapide
+$card-radius: 30px;
+$card-reveal-max-h: 120vh; // modifica se vuoi più/meno spazio
+
+.card.custom {
+  border-radius: $card-radius;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease-in-out;
+
+//   &:hover {
+//     transform: translateY(-4px);
+//     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+//   }
+
+  .card-image {
+    img {
+      border-top-left-radius: $card-radius;
+      border-top-right-radius: $card-radius;
+      object-fit: cover;
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .card-action {
+    border-top: none;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.75rem;
+
+    a {
+      margin: 0 20px;
+      font-weight: 500;
+    }
+  }
+
+  // ===== card-reveal: rendiamo scrollabile il contenuto lungo =====
+  .card-reveal {
+    // Materialize imposta spesso position:absolute; manteniamolo ma limitiamo l'altezza
+    max-height: $card-reveal-max-h;
+    overflow: hidden;            // nasconde ciò che eccede, lo scroll lo gestiamo nel <p>
+    display: flex;
+    flex-direction: column;
+    border-radius: $card-radius;
+    -webkit-overflow-scrolling: touch; // scroll fluido su iOS
+    z-index: 3;
+    
+
+    // titolo (rimane in cima)
+    .card-title {
+      font-weight: 600;
+      flex: 0 0 auto; // non si contrae
+      padding-bottom: 0.5rem;
+      margin-bottom: 0;
+    }
+
+    // paragrafo con overflow: sarà l'unica area che scrolla
+    p {
+      flex: 1 1 auto;
+      overflow-y: auto;
+      margin-top: 0.5rem;
+      padding-right: 0.5rem; // spazio per la scrollbar
+      -webkit-overflow-scrolling: touch;
+
+      // optional: scrollbar sottile e discreta
+      &::-webkit-scrollbar {
+        width: 6px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.12);
+        border-radius: 3px;
+      }
+      &::-webkit-scrollbar-thumb:hover {
+        background: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+}
+
+
+// Fix per la sottile riga visibile sul bordo destro delle card
+.card.custom {
+  position: relative; // necessario per ancorare il pseudo-elemento
+  
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #fff; // stesso colore di sfondo della card
+    z-index: 3; // sopra l’immagine, sotto il contenuto
+    pointer-events: none;
+  }
+
+  // Evita micro-sbordature durante il rendering GPU
+  .card-reveal,
+  .card-image img {
+    backface-visibility: hidden;
+    transform: translateZ(0);
+  }
+
+  // In caso di scaling subpixel, forza la larghezza precisa
+  .card-reveal {
+    width: calc(100% + 0.5px); // copre eventuale micro-gap destro
+    left: 0;
+  }
+}
+
+
+
+// PARTNERS
+
+.partners-grid .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.partner-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.partner-logo {
+  max-height: 120px;
+  width: auto;
+  object-fit: contain;
+  transition: transform 0.2s ease-in-out;
+}
+.partner-logo:hover {
+  transform: scale(1.05);
+}
+.partners-grid .col,
+.row.center-align > .col {
+  margin-bottom: 70px; 
+}
+
+@media (max-width: 600px) {
+  .partner-logo {
+    height: 80px;
+  }
+}

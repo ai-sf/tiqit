@@ -1,0 +1,30 @@
+---
+layout: page
+title: Partners
+---
+
+<div class="section">
+  <div class="row center-align">
+    {% for partner in site.data.partners.cards[0].items %}
+      <div class="col s12 m4 l4">
+        <a href="{{ partner.site }}" target="_blank" rel="noopener">
+          <img src="{{ site.url }}/{{ partner.img }}"
+               alt="{{ partner.title }}"
+               class="responsive-img partner-logo">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section">
+  <div class="row">
+    <div class="col s12">
+      <h4>Support us</h4>
+      <p>
+        If you are interested in partnering our events, please write an email to 
+        <a href="mailto:{{ site.data.partners.mail }}">this</a> email address.
+      </p>
+    </div>
+  </div>
+</div>

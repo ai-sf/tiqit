@@ -1,20 +1,32 @@
-banner: img/prova.png
+logo: "img/logo-white.png"
+longname: "Trento Innsbruck Quantum Information Tour"
 
-who: "40 AISF (Associazione Italiana Studenti di Fisica) members of whom:<br>
-- 25 from Trento local committee
-<br>- 15 from other universities"
+who:
+  text: "40 Physics students members of AISF (Associazione Italiana Studenti di Fisica) or IAPS (International Association of Physics Students), among whom:"
+  subpoints:
+    - text: "8 students from the Innsbruck University"
+    - text: "7 students from the University of Trento"
+    - text: "25 students from other universities"
 
-when: "From the 1st to the 3rd March 2017"
+when: "From Sunday, February 16th to Saturday, February 22nd 2025"
 
-where: "The first day will be spent in Trento visiting the university labs, the other two in Innsbruck at the IQOQI research center and the university"
+where: "The first three days will be spent in Innsbruck at the IQOQI research center and at the Innsbruck University, the last three in Trento visiting the University of Trento and the FBK labs"
 
-slideshow:
-  - img: img/innsbruck.jpg
-    alt: Innsbruck
-    title: Innsbruck
+slideshow1:
   - img: img/trento.jpg
     alt: Trento
-    title: Trento
-  
+  - img: img/innsbruck.jpg
+    alt: Innsbruck
+  - img: img/slide/group2024.jpg
+    alt: Participants
 
-paragraph: "The Trento-Innsbruck Quantum Information Tour is an event organised by AISF Trento (Local Committee of the Italian Association of Physics Students AISF) for all the members of the association: it will bring 40 students to visit some of the most advanced research facilities in Trento and Innsbruck and is conceived to showcase research mainly in the field of Quantum Information. Scientists and researchers will present their work and will be available to answer any question."
+
+paragraph1: "The Trento-Innsbruck Quantum Information Tour is an event organised by AISF Trento (Local Committee of the Italian Association of Physics Students AISF) in collaboration with AISF: it will bring 40 enthusiastic students to visit some of the most advanced research facilities in Trento and Innsbruck and is conceived to showcase research mainly in the field of Quantum Information and Quantum Science."
+
+button: "Apply now!"
+
+slideshow2:
+  - img: img/slide/lampo.jpg
+  - img: img/slide/tipo.jpg
+  - img: img/slide/cibo.jpg
+  - img: img/slide/laser.jpg

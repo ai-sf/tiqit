@@ -1,41 +1,43 @@
-<footer class="page-footer custom1">
+<footer class="page-footer">
   <div class="container">
     <div class="row">
-      <div class="col l6 m6 s12">
+      <div class="col l7 m6 s12">
         <h5 class="white-text">{{ site.data.footer.title }}</h5>
         <p class="grey-text text-lighten-4">{{ site.data.footer.descr }}</p>
       </div>
-      <div class="col l3 m6 s6">
+      <div class="col l2 m6 s6">
         <h5 class="white-text">Contact</h5>
-        <ul>
+        <ul class="footer-links">
         {% for item in site.data.footer.contact %}
-          <li>{{ item.name }}</li>
-      	  <li><a class="white-text" href="mailto:{{ item.mail }}">{{ item.mail }}</a></li>
+          <li>
+            <a class="white-text footer-link" href="mailto:{{ item.mail }}">
+              <img src="{{ site.url }}/img/icons/{{ item.icon }}" alt="{{ item.name }} icon" class="footer-icon">
+              <span>{{ item.name }}</span>
+            </a>
+          </li>
         {% endfor %}
         </ul>
       </div>
-      <div class="col l3 m6 s6">
-        <h5 class="white-text">Connect</h5>
-        <ul>
+      <div class="col l2 m6 s6">
+        <h5 class="white-text">Follow us</h5>
+        <ul class="footer-links">
           {% for item in site.data.footer.connect %}
-	        <li>
-            <a class="white-text" href="{{item.url}}" target="_blank"><img src="{{site.url}}/img/fb_logo.png"></a>
+          <li>
+            <a class="white-text footer-link" href="{{ item.url }}" target="_blank">
+              <img src="{{ site.url }}/img/icons/{{ item.icon }}" alt="{{ item.name }} icon" class="footer-icon">
+              <span>{{ item.name }}</span>
+            </a>
           </li>
-	        {% endfor %}
+          {% endfor %}
         </ul>
       </div>
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
-      Built with Jekyll and materializecss by
+      Built with <a class="white-text" href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a class="white-text" href="https://materializecss.com/" target="_blank">MaterializeCSS</a> by
       {% for item in site.data.footer.creator%}
-        <a class="white-text text-accent-3" href="mailto:{{ item.mail }}">{{ item.name }}</a>
-        {% if forloop.last %}
-        .
-        {% else %}
-        ,
-        {% endif %}
+        <a style="color: #00b834" href="{{ item.link }}">{{ item.name }}</a>{% if forloop.last %}.{% else %},{% endif %}
       {% endfor %}
     </div>
   </div>

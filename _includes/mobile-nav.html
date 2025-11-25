@@ -1,0 +1,44 @@
+<style>
+
+#nav-mobile li {
+  margin-bottom: 10px; /* spazio tra ogni voce del menu */
+}
+#nav-mobile .logo-item {
+  margin-bottom: 100px; /* spazio tra logo e le voci menu */
+  margin-left: 30px;
+}
+
+</style>
+
+<ul id="nav-mobile" class="sidenav">
+    <li class="logo-item"><a id="mobile-logo-container" href="{{ site.url }}"><object id="front-page-logo" type="image/png" style="margin-top:20px; width:150px" data="{{ site.url }}/img/logo-black.png">Your browser does not support PNG</object></a></li>
+    {% for item in include.nav %}
+        {% if item.subitems %}
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+          <li>
+              <a class="collapsible-header">{{ item.text }}</a>
+            <div class="collapsible-body">
+              <ul>
+                <li><a href="{{ site.url }}/{{ item.url }}">{{ item.text }}</a></li>
+            {% for subitem in item.subitems %}
+                <li><a href="{{ site.url }}/{{ subitem.url }}">{{ subitem.text }}</a></li>
+            {% endfor %}
+              </ul>
+            </div>
+          </li>
+        </ul>
+        </li>
+        {% else %}
+        <li><a
+           {% if item.url contains "http://" %}
+              href="{{ item.url }}" target="_blank"
+           {% else %}
+              href="{{ site.url }}/{{ item.url }}"
+           {% endif %}
+           >
+          {{ item.text }}
+        </a></li>
+        {% endif %}
+    {% endfor %}
+</ul>

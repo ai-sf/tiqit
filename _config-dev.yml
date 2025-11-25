@@ -2,6 +2,9 @@
 # title: "Acr Ev"
 # description: "nome evento completo"
 #url: "/" # the base hostname & protocol for your site
+title: "Tiqit"
+description: "Tiqit"
+url: "https://ai-sf.it/tiqit25"
 destination: ../site/
 locale: "it"
 

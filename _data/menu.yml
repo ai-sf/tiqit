@@ -1,14 +1,15 @@
-- text: Facilities
-  url: facilities
-- text: Accomodation
-  url: accomodation
-- text: Programme
-  url: programme
-- text: Registration
-  url: registration
-- text: Gallery
-  url: gallery
-- text: Sponsors
-  url: sponsors
-- text: AISF
+- text: "Home"
+  url: ""
+- text: "Registration"
+  url: "registration"
+- text: "Programme"
+  url: "programme"
+- text: "Facilities"
+  url: "facilities"
+- text: "Partners"
+  url: "partners"
+# - text: "Transportation"
+#   url: "transportation"
+- text: "AISF"
+  icon: "public"
   url: http://www.ai-sf.it
