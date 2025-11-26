@@ -35,11 +35,11 @@ ul.dashed > li:before{
     background-color: $color-type2-light !important;
 }
 
-.card-action.text-right{
+.card-action.links{
     text-align: right;
 }
 
-.card-action.text-right a{
+.card-action.links a{
     margin-right: 44px !important;
     margin-left: 44px !important;
 }
@@ -76,12 +76,12 @@ ul.dashed > li:before{
     text-align: inherit;
 }
 
-.card-action.text-right a{
+.card-action.links a{
     display: inline-flex;
     vertical-align: baseline;
 }
 
-.card-action.text-right i.material-icons{
+.card-action.links i.material-icons{
     margin-right: 6px;
 }
 
@@ -281,8 +281,9 @@ $card-reveal-max-h: 120vh; // modifica se vuoi più/meno spazio
   .card-action {
     border-top: none;
     text-align: center;
-    padding-top: 0.5rem;
-    padding-bottom: 0.75rem;
+    padding-top: 0.25rem;
+    // padding-bottom: 0.75rem;
+    margin-top: 0;
 
     a {
       margin: 0 20px;
@@ -401,3 +402,135 @@ $card-reveal-max-h: 120vh; // modifica se vuoi più/meno spazio
     height: 80px;
   }
 }
+
+
+
+
+/* Forza i link nella card-action sulla stessa riga */
+.card-action.links {
+    display: flex;
+    justify-content: center;  /* centrati */
+    gap: 40px;                /* distanza standard */
+    flex-wrap: nowrap;        /* impedisce di andare a capo */
+}
+
+/* Riduzione spazio tra link delle card */
+
+/* --- range: 1250px → 1040px --- */
+@media (max-width: 1250px) and (min-width: 1040px) {
+  .card-action.links {
+      gap: 44px !important;
+  }
+  .card-action.links a {
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+  }
+}
+
+/* --- range: 920px → 600px --- */
+@media (max-width: 920px) and (min-width: 601px) {
+  .card-action.links {
+    gap: 25px !important;
+  }
+  .card-action.links a {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+/* --- range: 420px → 100px --- */
+@media (max-width: 420px) and (min-width: 101px) {
+  .card-action.links {
+    gap: 45px !important;
+  }
+  .card-action.links a {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+
+
+/* a causa di iqoqi che ha il nome lungo, solo su finestre non grandi riduci spazio bianco tra titolo e bottoni */
+@media (max-width: 1420px) and (min-width: 101px) {
+  .card.custom .card-content {
+    margin-bottom: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+  }
+}
+
+
+
+
+
+//  .card.custom .card-reveal {
+//     position: absolute;   // Materialize lo richiede
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;         // IMPORTANTE: serve per definire lo spazio scrollabile
+//     padding: 1.2rem;}
+
+// /* Solo il contenuto scorre */
+// .card.custom .card-reveal p {
+//     flex: 1 1 auto;
+//     overflow-y: auto;     // rende scrollabile il testo
+//     margin: 0;
+//     padding-right: 8px;   // spazio per scrollbar
+// }
+
+// /* Scrollbar (opzionale) */
+// .card.custom .card-reveal p::-webkit-scrollbar {
+//     width: 6px;
+// }
+// .card.custom .card-reveal p::-webkit-scrollbar-thumb {
+//     background: rgba(0,0,0,0.2);
+//     border-radius: 3px;
+// }
+
+
+
+
+/* ORGANIZZATORI */
+.logos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;       /* spazio uniforme su desktop */
+  text-align: center;
+  margin: 3rem 0;    /* distanza da ciò che c’è sopra e sotto */
+}
+
+/* Immagini */
+.logo-img {
+  width: 20vw;
+  max-width: 190px;
+  height: auto;
+}
+
+/* --- TABLET --- */
+@media (max-width: 1120px) {
+  .logos-container {
+    gap: 2rem;      /* meno spazio tra loghi in verticale */
+    margin: 3rem 0; /* meno spazio complessivo */
+  }
+
+  .logo-img {
+    width: 45vw;      /* un po’ più grandi su mobile */
+    max-width: 160px;
+  }
+}
+/* --- MOBILE --- */
+@media (max-width: 640px) {
+  .logos-container {
+    flex-direction: column;
+    gap: 2rem;      /* meno spazio tra loghi in verticale */
+    margin: 1.5rem 0; /* meno spazio complessivo */
+  }
+
+  .logo-img {
+    width: 45vw;      /* un po’ più grandi su mobile */
+    max-width: 160px;
+  }
+}
+

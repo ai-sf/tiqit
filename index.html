@@ -109,14 +109,12 @@ script: home.js
 </div>
 
 <div class="container">
-  <div class="row" style="text-align:center; align-items: center;">
-    
-      {% for image in site.data.footer.images %}
-      <a href="{{ image.url }}" target="_blank" rel="noopener">
-        <img class="{{image.shape}}" src="{{image.link}}" style="width:20%; display:inline-block; margin-right:35px; margin-left:35px; vertical-align: middle;">
+  <div class="logos-container">
+    {% for image in site.data.footer.images %}
+      <a href="{{ image.url }}" target="_blank" rel="noopener" class="logo-link">
+        <img class="{{ image.shape }} logo-img" src="{{ image.link }}" alt="">
       </a>
-      {% endfor %}
-    
+    {% endfor %}
   </div>
 </div>
 

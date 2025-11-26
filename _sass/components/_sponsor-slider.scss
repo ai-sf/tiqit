@@ -25,9 +25,9 @@
 
 .sponsors-track {
   display: inline-block;
-  white-space: nowrap; /* per forzare la continuità */
+  white-space: nowrap;
   /* L'animazione sposta la track di -50% della sua larghezza (ossia un set completo) */
-  animation: slideSponsors 50s linear infinite;
+  animation: slideSponsors 40s linear infinite;
   img {
     display: inline-block;
     vertical-align: middle;

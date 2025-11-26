@@ -123,35 +123,35 @@ nav {
     //     border-radius: 8px; 
     //   }
     // }
-    a {
-      transition: background-color .3s;
-      font-size: $navbar-font-size;
-      color: $navbar-font-color;
-      display: block;
-      padding: 0 15px;
-      cursor: pointer;
-      letter-spacing: 0.3px;
+    // a {
+    //   transition: background-color .3s;
+    //   font-size: $navbar-font-size;
+    //   color: $navbar-font-color;
+    //   display: block;
+    //   padding: 0 15px;
+    //   cursor: pointer;
+    //   letter-spacing: 0.3px;
 
-      &.btn, &.btn-large, &.btn-flat, &.btn-floating {
-        margin-top: -2px;
-        margin-left: 15px;
-        margin-right: 15px;
+    //   &.btn, &.btn-large, &.btn-flat, &.btn-floating {
+    //     margin-top: -2px;
+    //     margin-left: 15px;
+    //     margin-right: 15px;
 
-        & > .material-icons {
-          height: inherit;
-          line-height: inherit;
-        }
-      }
+    //     & > .material-icons {
+    //       height: inherit;
+    //       line-height: inherit;
+    //     }
+    //   }
 
-      &:hover {
-        background-color: rgba(0,0,0,.1);
-        border-radius: 8px; 
-      }
-    }
+    //   &:hover {
+    //     background-color: rgba(0,0,0,.1);
+    //     border-radius: 8px; 
+    //   }
+    // }
 
-    &.left {
-      float: left;
-    }
+    // &.left {
+    //   float: left;
+    // }
   }
 
   // // Navbar Search Form
@@ -302,5 +302,13 @@ nav.home-navbar {
   &.scrolled {
   --nav-alpha: 1;
   --nav-blur: 10px;
+  }
+}
+
+@media (max-width: 1040px) {
+  .nav-links{
+    li{
+      margin: 0;
+    }
   }
 }
