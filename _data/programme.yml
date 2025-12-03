@@ -8,45 +8,39 @@ description:
         - line: Students will be given lectures on forefront theoretical and experimental research in this fields by academics and prominent figures in Trento and Innsbruck environment.
     - paragraph: null
     - paragraph:
-        - line: You can find a detailed version of the schedule below, <b>which is subject to change and will be constantly updated</b>. You can also <a href='https://calendar.google.com/calendar/u/0?cid=YzJkNTJhNjhhZTY3YzgyYTAyOTlhNGE2NzhmOWZlZjgxZDM4YjIzODdkYzMzNjcxNjkzM2Y4NmIzYWZlNmI1NkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t'>add the schedule to your Google Calendar</a>.
+        - line: You can find a detailed version of the schedule below, <b>which is subject to change and will be constantly updated</b>. You can also <a href='https://calendar.google.com/calendar/embed?src=3a83af40c4870a8a6da701b9e1275cebb96b68dbf4aa98960493053a70bffb6f%40group.calendar.google.com&ctz=Europe%2FRome'>add the schedule to your Google Calendar</a>.
 last_update: 24/10/2025
 schedule:
   - day: Sunday
-    date: 16/02/2025
+    date: 22/02/2026
     activity:
       - hour: '18:00'
         name: Opening Ceremony
         location:
-          name: Technikerstraße 25, 6020 Innsbruck, Austria
+          name: TBD
           room: Room TBD
           tag: ''
-        subactivities:
-          - title: <span>Registration, you will receive the keys to your rooms at the Youth Hostel if you didn’t check in before and instructions for the following days. Snacks and drinks are provided.</span>
   - day: Monday
-    date: 17/02/2025
+    date: 23/02/2026
     activity:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
-        subactivities:
-          - title: <b>Cooling and Trapping,</b><br><br><a href="http://ultracold.at/grimm/rudi/" target="_blank"><u>Univ.-Prof. Dr. Rudolf Grimm</u></a>, Ultracold Quantum Matter.<b></b>
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '10:00'
         name: Plenary lecture
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
-        subactivities:
-          - title: <b>Theory of Exotic Phases in Quantum Gases,</b><br><br><span><a href="https://www.uibk.ac.at/exphys/ultracold-theory/index.html.en" target="_blank">Ass.-Prof. Dr. Russell Bisset</a></span><span>, Ultracold Quantum Matter Theory.</span>
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '11:00'
         name: Coffee break
         location:
@@ -56,62 +50,54 @@ schedule:
       - hour: '11:30'
         name: Plenary lecture
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
-        subactivities:
-          - title: "<b>Dipolar Quantum Gases</b>,<br><br><span><a href=\"https://www.erbium.at/FF/\" target=\"_blank\">Univ.-Prof. Dr. Francesca Ferlaino</a></span><span>, Dipolar Quantum Gases\_ \_</span>"
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '12:30'
         name: Lunch and open discussion with Prof. Ferlaino
         location:
-          name: University
-          room: HS Vorbereitung, Technikerstr. 25
+          name: TBD
+          room: Room TBD
           tag: ''
       - hour: '15:00'
         name: Lab tours part I
         location:
-          name: University and IQOQI
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '17:30'
         name: Group activity in the city center
         location:
-          name: Innsbruck, Austria
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '20:00'
         name: Dinner
         location:
-          name: Maria
-          room: Theresien
+          name: TBD
+          room: Room TBD
           tag: ''
-        subactivities:
-          - title: <a href="https://mariatheresia.com/english-pages/home-en" target="_blank">Mariatheresia</a>
   - day: Tuesday
-    date: 18/02/2025
+    date: 24/02/2026
     activity:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
-        subactivities:
-          - title: <b>Fermionic Quantum Mixtures,</b><br><br><span><a href="https://iqoqi.at/de/personen/arbeitsgruppenmitarbeiter/grimm-gruppe/staff/cosetta-baroni" target="_blank">Dr. Cosetta Baroni</a>, Ultracold Quantum Matter.</span>
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '10:00'
         name: Plenary lecture
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
-        subactivities:
-          - title: "<b>Quantum Physics with Trapped Ions,</b><br><br><span><a href=\"https://www.uibk.ac.at/sp-physik/research-groups/c-roos.html.en\" target=\"_blank\">Ass.-Prof. Dr. Christian Roos</a>, Quantum Optics and Spectroscopy\_\_</span>"
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '11:00'
         name: Coffee break
         location:
@@ -121,15 +107,13 @@ schedule:
       - hour: '11:30'
         name: Plenary lecture
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
-        subactivities:
-          - title: "<b>Superconducting Quantum Circuits,</b><br><br><span><a href=\"https://kirchmair.iqoqi.at/de/\" target=\"_blank\">Univ.-Prof. Dr. Gerhard Kirchmair</a></span><span>, Superconducting Quantum Circuits\_ \_</span>"
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '12:30'
         name: Lunch
         location:
-          name: Techcafe, CT TE021a ICT Gebaude, Technikerstraße 21a, 6020 Innsbruck, Austria
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '13:45'
@@ -138,61 +122,55 @@ schedule:
           name: TBD
           room: Room TBD
           tag: ''
-        subactivities:
-          - title: Wear your TIQIT T-shirt!
       - hour: '14:00'
         name: Lab tours part II
         location:
-          name: IQOQI and University
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '16:30'
         name: Poster Session & meeting with UIBK PhD students
         location:
-          name: IQOQI
-          room: 3rd floor
-          tag: iqoqi
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '18:30'
-        name: Free Night
+        name: Free night
         location:
-          name: Innsbruck, Austria
+          name: TBD
           room: Room TBD
           tag: ''
   - day: Wednesday
-    date: 19/02/2025
+    date: 25/02/2026
     activity:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
-        subactivities:
-          - title: "<b>Dual-Species Quantum Processors and Quantum Networks,</b><br><b><br></b><span><a href=\"http://www.bernienlab.com/\" target=\"_blank\">Ass.-Prof. Dr. Hannes Bernien</a></span><span>, BernienLab\_\_</span>"
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '10:00'
         name: Plenary lecture
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
-        subactivities:
-          - title: "<b>Rydberg Atoms: Theory,</b><br><b><br></b><span><a href=\"https://www.uibk.ac.at/sp-physik/research-groups/h-pichler.html.en\" target=\"_blank\">Univ.-Prof. Hannes Pichler PhD</a></span><span>, Many-body Quantum Optics\_\_</span>"
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '11:00'
         name: Awards ceremony and final remarks
         location:
-          name: IQOQI
-          room: Schrödingersaal
-          tag: iqoqi
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '11:45'
         name: Lunch
         location:
-          name: Techcafe, CT TE021a ICT Gebaude, Technikerstraße 21a, 6020 Innsbruck, Austria
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '15:24'
@@ -202,255 +180,163 @@ schedule:
           room: Room TBD
           tag: ''
       - hour: '18:02'
-        name: Arrival in Trento and check in at the hostel
+        name: Arrival in Trento and check in at hostel
         location:
-          name: Ostello Trento
-          room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
+          name: TBD
+          room: Room TBD
           tag: ''
       - hour: '19:30'
         name: Social dinner
         location:
-          name: Forsterbräu Trento, Via Paolo Oss
-          room: Mazzurana, 38, 38122 Trento TN, Italia
-          tag: ''
-        subactivities:
-          - title: <a href="https://www.forst-trento.it/">Forsterbräu Trento</a>
-      - hour: '21:30'
-        name: City tour
-        location:
-          name: Trento, city center
+          name: TBD
           room: Room TBD
           tag: ''
-        subactivities:
-          - title: Nicola Pretto - AISF Trento President
+      - hour: '21:30'
+        name: Free night / Treasure hunt
+        location:
+          name: TBD
+          room: Room TBD
+          tag: ''
   - day: Thursday
-    date: 20/02/2025
+    date: 26/02/2026
     activity:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Ostello Trento
-          room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
+          name: TBD
+          room: Room TBD
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
-          name: Povo 2
-          room: B109
-          tag: physunitn
+          name: TBD
+          room: Room TBD
+          tag: ''
         subactivities:
-          - title: '<b>Topic: Ultracold gases in Trento,</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0000163" target="_blank">Chiara Menotti</a>, Pitaevskii Center for Bose-Einstein Condensation'
-      - hour: '09:30'
-        name: Plenary lecture
-        location:
-          name: Povo 2
-          room: B109
-          tag: physunitn
-        subactivities:
-          - title: '<b>Topic: Quantum spin mixtures,</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0120868/Didattica" target="_blank"><u>Giacomo Lamporesi</u></a>, Pitaevskii Center for Bose-Einstein Condensation<b></b>'
+          - title: "<b>Quantum fluids of light</b><b><br></b><br><a href=\"https://iacopo.carusotto.physics.unitn.it/\" target=\"_blank\">Dr. Iacopo Carusotto</a>,\_(CNR-INO)"
       - hour: '10:00'
         name: Plenary lecture
         location:
-          name: Povo 2
-          room: B109
-          tag: physunitn
+          name: TBD
+          room: Room TBD
+          tag: ''
         subactivities:
-          - title: 'Topic: Superfluids of light,<b></b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0000187/Didattica" target="_blank"><u>Iacopo Carusotto</u></a>, Pitaevskii Center for Bose-Einstein Condensation'
-      - hour: '10:30'
+          - title: "<b>Quantum Phase Transitions in ultracold gases: Para-ferromagnet and Superfluid-Mott Insulator</b><br><br><a href=\"https://recati.physics.unitn.it/\" target=\"_blank\">Dr. Alessio Recati</a>,\_(CNR-INO)"
+      - hour: '11:00'
         name: Coffee break
         location:
-          name: Povo 2
-          room: lobby
-          tag: physunitn
-      - hour: '11:00'
-        name: Plenary lecture
-        location:
-          name: Povo 2
-          room: B109
-          tag: physunitn
-        subactivities:
-          - title: <b>Integrated sources of photon pairs</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0212584/Curriculum" target="_blank"><u>Stefano Azzini</u></a>, NanoLab<b></b>
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '11:30'
         name: Plenary lecture
         location:
-          name: Povo 2
-          room: B109
-          tag: physunitn
-        subactivities:
-          - title: <b>Photonic variational quantum circuits,</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0145788/Didattica" target="_blank"><u>Alessio Baldazzi</u></a>, NanoLab
-      - hour: '12:00'
-        name: Lunch
-        location:
-          name: https://maps.app.goo.gl/keuAWuQa1ia4F6m98
+          name: TBD
           room: Room TBD
           tag: ''
         subactivities:
-          - title: <a href="https://saporidigastronomia.wordpress.com/home/" target="_blank"><u>Sapori di Gastronomia</u></a>
+          - title: <b>Introduction to quantum photonics</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0212584" target="_blank">prof. Stefano Azzini</a>, <a href="https://nanolab.physics.unitn.it/" target="_blank">NanoLab</a>
+      - hour: '12:30'
+        name: Lunch
+        location:
+          name: TBD
+          room: Room TBD
+          tag: ''
       - hour: '14:00'
         name: Lab tour
         location:
-          name: Povo 0
-          room: Labs
-          tag: physunitn
+          name: TBD
+          room: Room TBD
+          tag: ''
         subactivities:
-          - title: <ul><li><a href="https://bec.science.unitn.it/BEC/0_Home.html" target="_blank">BEC</a>;</li><li><a href="https://nanolab.physics.unitn.it/index.php/facilities" target="_blank">Quantum optics &amp; photonics</a>.</li></ul>
+          - title: 2 BEC + 3 Photonics + Squeezing (?)
       - hour: '17:00'
+        name: PhD speed dating
+        location:
+          name: TBD
+          room: Room TBD
+          tag: ''
+      - hour: '19:00'
         name: Free time
         location:
-          name: Trento, city center
+          name: TBD
           room: Room TBD
           tag: ''
-      - hour: '19:30'
-        name: Social dinner
-        location:
-          name: Ristorante Pizzeria Rosa d'Oro, Piazza Santa Maria Maggiore, 21, 38122 Trento TN, Italia
-          room: Room TBD
-          tag: ''
-        subactivities:
-          - title: '<a href="https://www.ristoranterosadoro.com/">https://www.ristoranterosadoro.com/</a><br><br>Appetizer: chips<br>Pizza and drink'
       - hour: '21:30'
         name: Game night
         location:
           name: TBD
           room: Room TBD
           tag: ''
+        subactivities:
+          - title: Clesio. Gioco Chiara Menotti (?)
   - day: Friday
-    date: 21/02/2025
+    date: 27/02/2026
     activity:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Ostello Trento
-          room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
+          name: TBD
+          room: Room TBD
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
-          name: Povo 2
-          room: B109
-          tag: physunitn
+          name: TBD
+          room: Room TBD
+          tag: ''
         subactivities:
-          - title: <span><b>Quantum Algorithms for Optimization Problems,</b></span><span><b><br></b></span><br><a href="https://webapps.unitn.it/du/en/Persona/PER0254993" target="_blank"><u>Alberto Bottarelli</u></a>, Quantum Computing &amp; Quantum Information <span><b></b></span>
-      - hour: '09:30'
+          - title: <b>Introduction to applications of quantum photonics<br></b><br><a href="https://webapps.unitn.it/du/en/Persona/PER0145788" target="_blank">dr. Alessio Baldazzi</a>, <a href="https://nanolab.physics.unitn.it/" target="_blank">NanoLab</a>
+      - hour: '10:00'
         name: Plenary lecture
         location:
-          name: Povo 2
-          room: B109
-          tag: physunitn
-        subactivities:
-          - title: <b>Quantum Simulations,</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0207518/Pubblicazioni" target="_blank"><u>Luca Spagnoli</u></a>, Quantum Computing &amp; Quantum Information
-      - hour: '10:00'
-        name: Coffee break
-        location:
-          name: Povo 2
-          room: lobby
-          tag: physunitn
-      - hour: '10:30'
-        name: Workshop Q. Computing
-        location:
-          name: Povo 2
-          room: B109
-          tag: physunitn
-        subactivities:
-          - title: <b>Introduction to practical quantum computing with Qiskit,</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0267083/" target="_blank"><u>Matteo Wauters</u></a>, Quantum Computing &amp; Quantum Information <b></b>
-      - hour: '12:00'
-        name: Lunch
-        location:
-          name: https://maps.app.goo.gl/keuAWuQa1ia4F6m98
+          name: TBD
           room: Room TBD
           tag: ''
-        subactivities:
-          - title: <a href="https://www.pizzario.it/" target="_blank"><u>Pizza Rio</u></a>
-      - hour: '14:00'
-        name: Master presentation
+      - hour: '11:00'
+        name: Lunch and Master and PhD presentations
         location:
-          name: Povo 2
-          room: B112
-          tag: physunitn
-        subactivities:
-          - title: <b><a href="https://webapps.unitn.it/du/en/Persona/PER0212698/">Albino Perego</a></b>
-      - hour: '14:00'
-        name: PhD presentation
-        location:
-          name: Povo 2
-          room: B108
-          tag: physunitn
-        subactivities:
-          - title: "<a href=\"https://webapps.unitn.it/du/en/Persona/PER0198071/Didattica\">Raffaello Potestio</a>\_-\_<span>Coordinator\_</span><span>Doctoral programme</span><br><br><a href=\"https://webapps.unitn.it/du/en/Persona/PER0003921/Didattica\">Giacomo Baldi</a><br><a href=\"https://webapps.unitn.it/du/en/Persona/PER0001700/Curriculum\">Franco Dalfovo</a><br><a href=\"https://webapps.unitn.it/du/en/Persona/PER0003403/Didattica\">William Joseph Weber</a>"
-      - hour: '15:00'
-        name: Poster session
-        location:
-          name: Povo 2
-          room: lobby
-          tag: physunitn
-        subactivities:
-          - title: "<ul><li><b>Luca Spagnoli</b><span>: Quantum Error Correction and Lattice Gauge Theories;</span></li><li><b>Luca Vespucci</b>:\_Quantum Simulation of interacting neutrinos;</li><li><b>Alberto Bottarelli &amp; Gopal Chandrasantra</b>:\_Quantum optimization for industrial applications;</li><li><b>Alex Windey &amp; David Pasqual Solis</b>: Quantum Simulation of the SYK model: from quantum chaos to cosmology.</li><li><b>Yong Kwon</b>: Quantum Computing Software Platform on Integrated Photonic Circuits;</li><li><b>Sebastiano Guaraldo</b>: A quantum photonic integrated SWAP test circuit for entanglement witness and randomness generation;</li><li><b>Marcello Summo</b>: Compact and efficient QKD photonic integrated device;</li><li><b>Alessio Baldazzi</b>: Variational quantum algorithms with integrated entangled photon sources;</li><li><b>Tomasz Zawiślak &amp; Marija Šindik</b>:\_Dipolar supersolids on a ring;</li><li><b>Pietro Oreglia</b>:\_Levitated quantum systems;</li><li><b>Chiara Rogora &amp; Diego Andreoni</b>:\_Superfluid spin mixtures;</li><li><b>Sukla Pal</b>: Open quantum systems, chain of strongly dissipative bosons.</li></ul>"
-      - hour: '17:30'
-        name: Clorsing Ceremony
-        location:
-          name: Museo Castello del Buonconsiglio, Via Bernardo Clesio, 5, 38122 Trento TN, Italia
+          name: TBD
           room: Room TBD
           tag: ''
-        subactivities:
-          - title: "Nicola Pretto - AISF Trento President<br><a href=\"https://webapps.unitn.it/du/en/Persona/PER0174693/Curriculum\" target=\"_blank\"><u>Gianluca Lattanzi</u></a>\_- Department of Physics Director"
-      - hour: '18:30'
-        name: Social dinner
+      - hour: '14:30'
+        name: Workshop Q. computing
         location:
-          name: Museo Castello del Buonconsiglio, Via Bernardo Clesio, 5, 38122 Trento TN, Italia
+          name: TBD
           room: Room TBD
           tag: ''
-        subactivities:
-          - title: Buffet
-      - hour: '20:00'
-        name: Guided tour
+      - hour: '17:00'
+        name: Dinner and closing ceremony
         location:
-          name: Museo Castello del Buonconsiglio, Via Bernardo Clesio, 5, 38122 Trento TN, Italia
+          name: TBD
           room: Room TBD
           tag: ''
   - day: Saturday
-    date: 22/02/2025
+    date: 28/02/2026
     activity:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Ostello Trento
-          room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
+          name: TBD
+          room: Room TBD
           tag: ''
       - hour: '09:00'
-        name: Presentation and final remarks
+        name: FBK lab tour
         location:
-          name: FBK
-          room: Sala Stringa
-          tag: ''
-        subactivities:
-          - title: "<a href=\"https://sd.fbk.eu/en/people/detail/richard-hall-wilton/\">Richard John Hall-Wilton</a>,\_<span>Director of the Center for Sensors &amp; Devices (FBK - SD)</span>"
-      - hour: '10:00'
-        name: Lab tour
-        location:
-          name: Fondazione Bruno Kessler, Via Sommarive, 18, 38123 Povo TN, Italia
+          name: TBD
           room: Room TBD
           tag: ''
       - hour: '11:00'
         name: Lunch
         location:
-          name: Trento TN, Italia
+          name: TBD
           room: Room TBD
           tag: ''
-        subactivities:
-          - title: <ul><li><a href="https://www.facebook.com/ibris.tn">Ibris</a>;</li><li><a href="https://www.lunellitrento.it/jcms/index.php">Lunelli</a></li></ul>
       - hour: '14:00'
-        name: Guided Tour MUSE
+        name: MUSE / walk in Sardagna or Doss Trento
         location:
-          name: MUSE
-          room: Museo delle Scienze, Corso del Lavoro e della Scienza, 3, 38122 Trento TN, Italia
-          tag: ''
-        subactivities:
-          - title: '<span>Guided tours:</span><br><ul><li>Mountains: from the origins to the peak;</li><li>History and evolution of life.</li></ul>'
-      - hour: '15:00'
-        name: Free time in MUSE
-        location:
-          name: MUSE
-          room: Museo delle Scienze, Corso del Lavoro e della Scienza, 3, 38122 Trento TN, Italia
+          name: TBD
+          room: Room TBD
           tag: ''
 button1: Download PDF (available soon)
 button2: Add to Google Calendar

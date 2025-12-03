@@ -12,7 +12,7 @@ async function main() {
     const calendar = google.calendar({ version: 'v3'});
 
     const res = await calendar.events.list({
-        calendarId: 'c2d52a68ae67c82a0299a4a678f9fef81d38b2387dc336716933f86b3afe6b56@group.calendar.google.com', 
+        calendarId: '3a83af40c4870a8a6da701b9e1275cebb96b68dbf4aa98960493053a70bffb6f@group.calendar.google.com', 
         key: 'AIzaSyCum8F_nQNtcNCjq_AbbOZjIGDFZhBVAHs',
         maxResults: 100,
         singleEvents: true,
