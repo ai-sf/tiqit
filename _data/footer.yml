@@ -1,5 +1,5 @@
-title: Associazione Italiana Studenti di Fisica
-descr: The Associazione Italiana Studenti di Fisica (AISF) gathers together most of the Italian physics students. It was founded in Heidelberg in August 2014 and since January 2015 has been a Territorial Committee for the International Association of Physics Students (IAPS).
+title: TIQIT 2026
+descr: The Trento-Innsbruck Quantum Information Tour is an international event organised by AISF Trento and Spettro di Povo in collaboration with the department of physics of the University of Trento and IQOQI. It's a 1-week school taking place between Trento and Innsbruck, focused on the most recent research in quantum sciences.
 
 contact:
   - name: TIQIT26
@@ -35,14 +35,16 @@ creator:
     link: https://github.com/giacomofonta
 
 images:
-  - link: "img/organizers/aisf_logo.png"
-    url: "https://ai-sf.it/"
+  - link: "img/organizers/spettro.png"
+    url: "https://spettrodipovo.it"
     shape: "rect"
   - link: "img/organizers/trento_logo.png"
     url: "https://ai-sf.it/trento/"
     shape: "rect"
-  - link: "img/organizers/spettro.png"
-    url: "https://spettrodipovo.it"
+  - link: "img/organizers/aisf_logo.png"
+    url: "https://ai-sf.it/"
     shape: "rect"
+
+
   # - link: "img/organizers/TAUT_logo.png"
   #   shape: "rect"

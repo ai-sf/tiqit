@@ -1,12 +1,12 @@
 logo: "img/logo-white.png"
-longname: "Trento Innsbruck Quantum Information Tour"
+longname: "Trento Innsbruck Quantum Information Tour 2026"
 
 who:
   text: "40 Physics students members of AISF (Associazione Italiana Studenti di Fisica) or IAPS (International Association of Physics Students), among whom:"
   subpoints:
     - text: "8 students from the Innsbruck University"
-    - text: "7 students from the University of Trento"
-    - text: "25 students from other universities"
+    - text: "8 students from the University of Trento"
+    - text: "24 students from other universities"
 
 when: "From Sunday, February 22<sup>nd</sup> to Saturday, February 28<sup>th</sup> 2026"
 
@@ -21,7 +21,7 @@ slideshow1:
     alt: Participants
 
 
-paragraph1: "The Trento-Innsbruck Quantum Information Tour is an event organised by AISF Trento (Local Committee of the Italian Association of Physics Students AISF) in collaboration with AISF: it will bring 40 enthusiastic students to visit some of the most advanced research facilities in Trento and Innsbruck and is conceived to showcase research mainly in the field of Quantum Information and Quantum Science."
+paragraph1: "The Trento-Innsbruck Quantum Information Tour is an event organised by AISF Trento (Local Committee of the Italian Association of Physics Students AISF) and Spettro di Povo, in collaboration with AISF: it will bring 40 enthusiastic students to visit some of the most advanced research facilities in Trento and Innsbruck and is conceived to showcase research mainly in the field of Quantum Information and Quantum Science."
 
 button: "Apply now!"
 

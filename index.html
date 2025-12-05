@@ -93,7 +93,7 @@ script: home.js
 <div class="container">
   <div class="row" style="text-align:center; align-items: center;">
     <div class="slider" id="foto-eventi">
-      <ul class="slides">
+      <ul class="slides" style="border-radius: 20px;">
         {% for slide in site.data.home.slideshow2 %}
           <li>
             <img src="{{ site.url }}/{{ slide.img }}" alt="{{ slide.alt }}">
@@ -119,7 +119,7 @@ script: home.js
 </div>
 
 <!-- sponsor, animati via scroll -->
-<div class="container">
+<div class="container" style="width: 70%;">
   <!-- Carosello Sponsor -->
   <a href="{{ site.url }}/partners/" style="text-decoration: none;">
     <section class="sponsors-section">
