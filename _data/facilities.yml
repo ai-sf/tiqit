@@ -45,12 +45,12 @@ cards:
         descr: "Accommodation in Trento will be provided at the Ostello di Trento, Via Torre Vanga 11, 38122 Trento"
         site: "https://www.ostelloditrento.it/"
         map: "https://www.google.com/maps/place/Ostello+Trento+-+Giovane+Europa/@46.0701673,11.1166207,17z/data=!3m1!4b1!4m9!3m8!1s0x4782714a06f7cc5b:0xe6a654998da8fc81!5m2!4m1!1i2!8m2!3d46.0701673!4d11.1191956!16s%2Fg%2F1tvt9656?entry=ttu"
-      - img: img/facilities/meininger.jpg
-        title: Meininger Innsbruck
-        tag: "hotel_innsbruck"
-        descr: "Accomodation in Innsbruck will be provided at the Meininger Hotel Innsbruck, Blasius-Hueber-Straße 4, 6020 Innsbruck, Austria"
-        site: "https://www.meininger-hotels.com/en/hotels/innsbruck/hotel-innsbruck-center/"
-        map: "https://maps.app.goo.gl/h4GVwgH5cSVSrmod9"
+      - img: img/facilities/youth-hostel.jpg
+        title: Youth Hostel Innsbruck
+        tag: "hostel_innsbruck"
+        descr: "Accomodation in Innsbruck will be provided at the Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria"
+        site: "https://www.youth-hostel-innsbruck.at/en/"
+        map: "https://maps.app.goo.gl/zEXW2SPJHGSaopsy6"
 
     # - name: "Lunch and Dinner"
     #   zoom: true
