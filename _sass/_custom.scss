@@ -397,7 +397,7 @@ $card-reveal-max-h: 120vh; // modifica se vuoi più/meno spazio
   margin-bottom: 70px; 
 }
 
-@media (max-width: 600px) {
+@media (max-width: $small-screen) {
   .partner-logo {
     height: 80px;
   }

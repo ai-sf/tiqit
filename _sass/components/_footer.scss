@@ -55,7 +55,7 @@ footer.page-footer {
   }
 }
 /* Rimuove i limiti del container solo per desktop */
-@media (min-width: 992px) {
+@media (min-width: $medium-screen) {
   .footer-container {
     max-width: 80% !important;
     width: 80% !important;
@@ -63,7 +63,7 @@ footer.page-footer {
     padding-right: 40px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: $medium-screen) {
   footer.page-footer .col:first-child {
     margin-right: 70px;
   }

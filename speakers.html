@@ -1,0 +1,387 @@
+---
+layout: page
+title: Speakers
+---
+<style>
+/* ------ GRID SPEAKERS ------ */
+.speaker-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+/* Forza 4 colonne su desktop largo */
+@media (min-width: 771px) {
+  .speaker-grid {
+    gap: 15px;
+    max-width: calc(4 * 220px + 3 * 15px); /* 4 card + 3 gap */
+  }
+
+  .speaker-card {
+    flex: 0 0 220px;           /* larghezza fissa */
+    max-width: 220px;
+  }
+}
+
+/* ------ CARD ------ */
+.speaker-card {
+  width: 220px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  background-color: #fff;
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  text-align: left;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.speaker-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.speaker-card img {
+  width: 185px; 
+  height: 185px;
+  object-fit: cover;
+  border-radius: 8%;
+}
+
+/* ------ CARD TEXT ------ */
+.speaker-area {
+  color: #199b3c;
+  font-size: 1.1rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.speaker-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.speaker-desc {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  display: none;
+}
+
+
+/* ------ ANIMAZIONE ON SCROLL ------ */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Wrapper che esce dal container globale */
+.fullwidth-wrapper {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.speaker-grid-container {
+  padding: 30px;
+}
+
+/* TABLET */
+@media (max-width: 770px) { 
+
+    .speaker-grid {
+    gap: 15px;
+    max-width: calc(3 * 170px + 2 * 15px);
+  }
+
+  .speaker-card {
+    flex: 0 0 170px;
+    max-width: 170px;
+  }
+
+  .speaker-card img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .speaker-name {
+    font-size: 1.1rem;
+  }
+
+  .speaker-area {
+    font-size: 1rem;
+  }
+
+  .speaker-desc {
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+}
+
+
+/* MOBILE */
+@media (max-width: 480px) {
+
+    .speaker-grid {
+    gap: 15px;
+
+    max-width: calc(2 * 140px + 1 * 15px);
+  }
+
+  .speaker-card {
+    flex: 0 0 140px;
+    max-width: 140px;
+  }
+
+  .speaker-card img {
+    width: 110px;
+    height: 110px;
+    border-radius: 13%;
+  }
+
+  .speaker-name {
+    font-size: 1.1rem;
+  }
+
+  .speaker-area {
+    font-size: 0.9rem;
+  }
+
+  .speaker-desc {
+    font-size: 0.8rem;
+    line-height: 1.25;
+  }
+}
+
+
+
+/* ------ POPUP OVERLAY ------ */
+.popup-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.35);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  padding: 20px;
+
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.25s ease;
+}
+
+.popup-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+/* ------ POPUP CARD ------ */
+.popup-card {
+  background: #fff;
+  border-radius: 25px;
+  max-width: 620px;
+  padding: 35px;
+  text-align: center;
+  position: relative;
+
+  transform: scale(0.9);
+  opacity: 0;
+  transition: transform 0.25s ease, opacity 0.25s ease;
+}
+
+.popup-card.open {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.popup-card.closing {
+  transform: scale(0.9);
+  opacity: 0;
+}
+
+
+.popup-card img {
+  width: 200px;
+  height: 200px;
+  border-radius: 12%;
+  object-fit: cover;
+}
+
+.popup-card h3 {
+  font-size: 1.9rem;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.popup-card #popup-area {
+  color: #199b3c;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+
+/* ------ CLOSE BUTTON ------ */
+/* Rimuove ogni highlight, box, background o bordo in TUTTI gli stati */
+.popup-close,
+.popup-close:focus,
+.popup-close:active,
+.popup-close:hover,
+.popup-close:focus-visible {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  appearance: none !important;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+}
+/* Anche su mobile */
+.popup-close {
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.popup-close {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.close-icon {
+  width: 35px !important;
+  height: 35px !important;
+  filter: grayscale(100%) brightness(60%); /* grigio default */
+  transition: filter 0.2s ease;
+}
+
+
+
+.popup-close:hover .close-icon {
+  filter: brightness(0) saturate(100%) invert(21%) sepia(96%) saturate(2876%) hue-rotate(355deg) brightness(102%) contrast(110%);
+  /* → rosso */
+}
+
+.popup-close:active .close-icon {
+  transform: scale(0.9);
+}
+
+</style>
+
+
+    <!-- Sezione Speakers -->
+
+<h6 style="text-align: center;">{{site.data.speakers.intro}}</h6>
+
+<div class="fullwidth-wrapper">
+    <div class="speaker-grid-container">
+        <section class="speaker-grid">
+            {% for speaker in site.data.speakers.speakers %}
+            <div class="speaker-card animate-on-scroll">
+                <img src="{{ site.url }}{{ speaker.img }}" alt="{{ speaker.name }}">
+                <h3 class="speaker-name">{{ speaker.name }}</h3>
+                <p class="speaker-area">{{ speaker.area }}</p>
+                <p class="speaker-desc">{{ speaker.desc }}</p>
+            </div>
+            {% endfor %}
+        </section>
+  </div>
+
+
+    <!-- POPUP -->
+    <div id="popup-overlay" class="popup-overlay">
+        <div class="popup-card">
+            <button class="popup-close">
+                <img src="{{ site.url }}/img/icons/close-icon.svg" alt="close" class="close-icon">
+            </button>
+            <img id="popup-img" src="" alt="">
+            <h3 id="popup-name"></h3>
+            <p id="popup-area"></p>
+            <p id="popup-desc"></p>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const cards = document.querySelectorAll(".speaker-card");
+  const overlay = document.getElementById("popup-overlay");
+
+  const popupImg  = document.getElementById("popup-img");
+  const popupName = document.getElementById("popup-name");
+  const popupArea = document.getElementById("popup-area");
+  const popupDesc = document.getElementById("popup-desc");
+
+  const closeBtn = document.querySelector(".popup-close");
+  const popupCard = document.querySelector(".popup-card");
+
+  // funzione per aprire il popup
+  function openPopup(card) {
+    const img   = card.querySelector("img").src;
+    const name  = card.querySelector(".speaker-name")?.innerText || "";
+    const area  = card.querySelector(".speaker-area")?.innerText || "";
+    const desc  = card.querySelector(".speaker-desc")?.innerText || "—";
+
+    popupImg.src = img;
+    popupName.textContent = name;
+    popupArea.textContent = area;
+    popupDesc.textContent = desc;
+
+    // reset classi
+    popupCard.classList.remove("closing");
+    void popupCard.offsetWidth;
+    popupCard.classList.add("open");
+
+    overlay.classList.add("active");
+    document.body.style.overflow = "hidden";
+  }
+  // funzione per chiudere il popup
+  function closePopup() {
+    popupCard.classList.remove("open");
+    popupCard.classList.add("closing");
+    overlay.classList.remove("active");
+
+    setTimeout(() => {
+        popupCard.classList.remove("closing");
+        document.body.style.overflow = "auto";
+    }, 250);
+  }
+
+
+  cards.forEach(card => {
+    card.addEventListener("click", () => openPopup(card));
+  });
+
+  closeBtn.addEventListener("click", closePopup);
+
+  // chiudi cliccando fuori dalla card
+  overlay.addEventListener("click", (e) => {
+    if (e.target === overlay) closePopup();
+  });
+});
+
+</script>

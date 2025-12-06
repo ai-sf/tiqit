@@ -95,7 +95,7 @@ script: home.js
     <div class="slider" id="foto-eventi">
       <ul class="slides" style="border-radius: 20px;">
         {% for slide in site.data.home.slideshow2 %}
-          <li>
+          <li style="border-radius: 20px;">
             <img src="{{ site.url }}/{{ slide.img }}" alt="{{ slide.alt }}">
             <div class="caption left-align">
               <h4>{{ slide.title }}</h4>
