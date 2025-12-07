@@ -12,6 +12,12 @@ title: Speakers
   justify-items: center;
   margin: 0 auto;
 }
+.speaker-grid-container h2 {
+  text-align:center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+}
 
 /* Forza 4 colonne su desktop largo */
 @media (min-width: 771px) {
@@ -94,10 +100,6 @@ title: Speakers
   margin-right: -50vw;
 }
 
-.speaker-grid-container {
-  padding: 30px;
-}
-
 /* TABLET */
 @media (max-width: 770px) { 
 
@@ -137,18 +139,19 @@ title: Speakers
     .speaker-grid {
     gap: 15px;
 
-    max-width: calc(2 * 140px + 1 * 15px);
+    max-width: calc(2 * 160px + 1 * 15px);
   }
 
   .speaker-card {
-    flex: 0 0 140px;
-    max-width: 140px;
+    flex: 0 0 160px;
+    max-width: 160px;
+    padding: 12px;
   }
 
   .speaker-card img {
-    width: 110px;
-    height: 110px;
-    border-radius: 13%;
+    width: 134px;
+    height: 134px;
+    border-radius: 10%;
   }
 
   .speaker-name {
@@ -218,8 +221,12 @@ title: Speakers
 .popup-card img {
   width: 200px;
   height: 200px;
-  border-radius: 12%;
+  border-radius: 10%;
   object-fit: cover;
+}
+
+#popup-desc {
+text-align: justify;
 }
 
 .popup-card h3 {
@@ -272,7 +279,7 @@ title: Speakers
 .close-icon {
   width: 35px !important;
   height: 35px !important;
-  filter: grayscale(100%) brightness(60%); /* grigio default */
+  filter: invert(60%);
   transition: filter 0.2s ease;
 }
 
@@ -296,16 +303,20 @@ title: Speakers
 
 <div class="fullwidth-wrapper">
     <div class="speaker-grid-container">
-        <section class="speaker-grid">
-            {% for speaker in site.data.speakers.speakers %}
-            <div class="speaker-card animate-on-scroll">
-                <img src="{{ site.url }}{{ speaker.img }}" alt="{{ speaker.name }}">
-                <h3 class="speaker-name">{{ speaker.name }}</h3>
-                <p class="speaker-area">{{ speaker.area }}</p>
-                <p class="speaker-desc">{{ speaker.desc }}</p>
-            </div>
+        
+        {% for city in site.data.speakers.cities %}
+            <h2>{{ city.name }}</h2>
+            <section class="speaker-grid">
+            {% for speaker in city.speakers %}
+                <div class="speaker-card animate-on-scroll" {% if speaker.tag %} id="{{ speaker.tag }}" {% endif %}>
+                    <img src="{{ site.url }}{{ speaker.img }}" alt="{{ speaker.name }}">
+                    <h3 class="speaker-name">{{ speaker.name }}</h3>
+                    <p class="speaker-area">{{ speaker.area }}</p>
+                    <p class="speaker-desc">{{ speaker.desc }}</p>
+                </div>
             {% endfor %}
-        </section>
+            </section>
+        {% endfor %}
   </div>
 
 
@@ -341,6 +352,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // funzione per aprire il popup
   function openPopup(card) {
+    const id = card.id || "";
     const img   = card.querySelector("img").src;
     const name  = card.querySelector(".speaker-name")?.innerText || "";
     const area  = card.querySelector(".speaker-area")?.innerText || "";
@@ -351,14 +363,17 @@ document.addEventListener("DOMContentLoaded", () => {
     popupArea.textContent = area;
     popupDesc.textContent = desc;
 
-    // reset classi
     popupCard.classList.remove("closing");
     void popupCard.offsetWidth;
     popupCard.classList.add("open");
 
     overlay.classList.add("active");
     document.body.style.overflow = "hidden";
+
+    // Aggiorna l'hash senza ricaricare la pagina
+    if (id) history.replaceState(null, "", `#${id}`);
   }
+
   // funzione per chiudere il popup
   function closePopup() {
     popupCard.classList.remove("open");
@@ -366,22 +381,45 @@ document.addEventListener("DOMContentLoaded", () => {
     overlay.classList.remove("active");
 
     setTimeout(() => {
-        popupCard.classList.remove("closing");
-        document.body.style.overflow = "auto";
+      popupCard.classList.remove("closing");
+      document.body.style.overflow = "auto";
     }, 250);
+
+    // Rimuove l'hash dall'URL senza ricaricare
+    history.replaceState(null, "", window.location.pathname);
   }
 
-
+  // aggiungi evento click a tutte le card
   cards.forEach(card => {
     card.addEventListener("click", () => openPopup(card));
   });
 
   closeBtn.addEventListener("click", closePopup);
-
-  // chiudi cliccando fuori dalla card
   overlay.addEventListener("click", (e) => {
     if (e.target === overlay) closePopup();
   });
+
+  // ----- APERTURA AUTOMATICA SE HASH PRESENTE -----
+  function checkHash() {
+    const hash = window.location.hash;
+    if (hash) {
+      const targetCard = document.querySelector(hash);
+      if (targetCard) {
+        targetCard.scrollIntoView({ behavior: "smooth", block: "center" });
+        openPopup(targetCard);
+      }
+    } else {
+      // chiudi popup se l'hash viene rimosso
+      if (popupCard.classList.contains("open")) closePopup();
+    }
+  }
+
+  // controlla l'hash al caricamento
+  checkHash();
+
+  // ascolta cambi di hash senza ricaricare la pagina
+  window.addEventListener("hashchange", checkHash);
 });
+
 
 </script>
