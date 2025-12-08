@@ -1,6 +1,6 @@
-# TIQIT25
+# TIQIT
 
-Official website of the event TIQIT25, organized by the Local Committee of Trento of the Italian Association of Physics Students (AISF), in collaboration with AISF.
+Official website of the event TIQIT, organized by the Local Committee of Trento of the Italian Association of Physics Students (AISF) and Spettro di Povo, in collaboration with AISF.
 
 ![Home](img/readme/home.png)
 
