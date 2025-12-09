@@ -8,16 +8,16 @@ description:
         - line: Students will be given lectures on forefront theoretical and experimental research in this fields by academics and prominent figures in Trento and Innsbruck environment.
     - paragraph: null
     - paragraph:
-        - line: You can find a detailed version of the schedule below, <b>which is subject to change and will be constantly updated</b>. You can also <a href='https://calendar.google.com/calendar/embed?src=3a83af40c4870a8a6da701b9e1275cebb96b68dbf4aa98960493053a70bffb6f%40group.calendar.google.com&ctz=Europe%2FRome'>add the schedule to your Google Calendar</a>.
+        - line: You can find a detailed version of the schedule below, <b>which is subject to change and will be constantly updated</b>. You can also <a href='https://calendar.google.com/calendar/embed?src=3a83af40c4870a8a6da701b9e1275cebb96b68dbf4aa98960493053a70bffb6f%40group.calendar.google.com&ctz=Europe%2FRome' target='_blank'>add the schedule to your Google Calendar</a>.
 last_update: 24/10/2025
 schedule:
   - day: Sunday
     date: 22/02/2026
     activity:
-      - hour: '18:00'
+      - hour: '16:00'
         name: Opening Ceremony
         location:
-          name: TBD
+          name: Technikerstraße 25, 6020 Innsbruck, Austria
           room: Room TBD
           tag: ''
   - day: Monday
@@ -26,31 +26,31 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: TBD
+          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
           room: Room TBD
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
-          name: TBD
+          name: IQOQI Schrödingersaal 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '10:00'
         name: Plenary lecture
         location:
-          name: TBD
+          name: IQOQI Schrödingersaal 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '11:00'
         name: Coffee break
         location:
-          name: TBD
+          name: IQOQI 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '11:30'
         name: Plenary lecture
         location:
-          name: TBD
+          name: IQOQI Schrödingersaal 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '12:30'
@@ -62,20 +62,20 @@ schedule:
       - hour: '15:00'
         name: Lab tours part I
         location:
-          name: TBD
+          name: IQOQI and UIBK
           room: Room TBD
           tag: ''
       - hour: '17:30'
-        name: Group activity in the city center
+        name: Group activity / free time
         location:
           name: TBD
           room: Room TBD
           tag: ''
-      - hour: '20:00'
+      - hour: '19:30'
         name: Dinner
         location:
-          name: TBD
-          room: Room TBD
+          name: mariatheresia, Maria
+          room: Theresien
           tag: ''
   - day: Tuesday
     date: 24/02/2026
@@ -83,37 +83,37 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: TBD
+          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
           room: Room TBD
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
-          name: TBD
+          name: IQOQI Schrödingersaal 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '10:00'
         name: Plenary lecture
         location:
-          name: TBD
+          name: IQOQI Schrödingersaal 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '11:00'
         name: Coffee break
         location:
-          name: TBD
+          name: IQOQI 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '11:30'
         name: Plenary lecture
         location:
-          name: TBD
+          name: IQOQI Schrödingersaal 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '12:30'
         name: Lunch
         location:
-          name: TBD
+          name: Techcafe
           room: Room TBD
           tag: ''
       - hour: '13:45'
@@ -125,19 +125,19 @@ schedule:
       - hour: '14:00'
         name: Lab tours part II
         location:
-          name: TBD
+          name: IQOQI and UIBK
           room: Room TBD
           tag: ''
       - hour: '16:30'
-        name: Poster Session & meeting with UIBK PhD students
+        name: Poster Session
         location:
-          name: TBD
+          name: IQOQI 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '18:30'
         name: Free night
         location:
-          name: TBD
+          name: Innsbruck, Austria
           room: Room TBD
           tag: ''
   - day: Wednesday
@@ -146,31 +146,31 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: TBD
+          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
           room: Room TBD
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
-          name: TBD
+          name: IQOQI Schrödingersaal 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '10:00'
         name: Plenary lecture
         location:
-          name: TBD
+          name: IQOQI Schrödingersaal 3rd Floor
           room: Room TBD
           tag: ''
       - hour: '11:00'
-        name: Awards ceremony and final remarks
+        name: Closing remarks
         location:
           name: TBD
           room: Room TBD
           tag: ''
-      - hour: '11:45'
-        name: Lunch
+      - hour: '11:15'
+        name: Lunch break / free time
         location:
-          name: TBD
+          name: Techcafe
           room: Room TBD
           tag: ''
       - hour: '15:24'
@@ -182,8 +182,8 @@ schedule:
       - hour: '18:02'
         name: Arrival in Trento and check in at hostel
         location:
-          name: TBD
-          room: Room TBD
+          name: Ostello Trento
+          room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
           tag: ''
       - hour: '19:30'
         name: Social dinner
@@ -203,8 +203,8 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: TBD
-          room: Room TBD
+          name: Ostello Trento
+          room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
@@ -245,7 +245,7 @@ schedule:
       - hour: '14:00'
         name: Lab tour
         location:
-          name: TBD
+          name: Povo0
           room: Room TBD
           tag: ''
         subactivities:
@@ -253,8 +253,8 @@ schedule:
       - hour: '17:00'
         name: PhD speed dating
         location:
-          name: TBD
-          room: Room TBD
+          name: Povo2
+          room: Hall
           tag: ''
       - hour: '19:00'
         name: Free time
@@ -276,8 +276,8 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: TBD
-          room: Room TBD
+          name: Ostello Trento
+          room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
@@ -293,6 +293,8 @@ schedule:
           name: TBD
           room: Room TBD
           tag: ''
+        subactivities:
+          - title: <a href="https://webapps.unitn.it/du/en/Persona/PER0232836">Alberto Biella</a>, <a href="https://webapps.unitn.it/du/en/Persona/PER0245259">Andrea Legramandi</a>, <a href="https://webapps.unitn.it/du/en/Persona/PER0016084">Alessandro Roggero</a>
       - hour: '11:00'
         name: Lunch and Master and PhD presentations
         location:
@@ -317,8 +319,8 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: TBD
-          room: Room TBD
+          name: Ostello Trento
+          room: Giovane Europa, Via Torre Vanga, 11, 38122 Trento TN, Italia
           tag: ''
       - hour: '09:00'
         name: FBK lab tour
