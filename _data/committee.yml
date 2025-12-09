@@ -1,0 +1,55 @@
+intro: Get to know the organizing committee, the team working behind the scenes to bring TIQIT 2026 to life!
+members:
+  - name: "Mario Rossi"
+    area: "Coordinator"
+    img: "/img/speakers/speaker1.jpg"
+    desc: "Esperto in teorie delle stringhe e gravità quantistica, il Prof. Rossi ha pubblicato numerosi articoli di punta nel settore."
+    tag: "mario"
+
+  - name: "Lucia Bianchi"
+    area: "Sponsor"
+    img: "/img/speakers/speaker2.jpg"
+    desc: "La Dott.ssa Bianchi si occupa di innovazioni tecnologiche e applicazioni della fisica in ambito industriale e medicale."
+    tag: "lucia"
+
+  - name: "Giovanni Verdi"
+    area: "Events"
+    img: "/img/speakers/speaker3.jpg"
+    tag: "giovanni"
+    desc: "Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica.Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica. Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica."
+
+  - name: "Mario Rossi"
+    area: "Coordinator"
+    img: "/img/speakers/speaker1.jpg"
+    desc: "Esperto in teorie delle stringhe e gravità quantistica, il Prof. Rossi ha pubblicato numerosi articoli di punta nel settore."
+    tag: "mario"
+
+  - name: "Lucia Bianchi"
+    area: "Sponsor"
+    img: "/img/speakers/speaker2.jpg"
+    desc: "La Dott.ssa Bianchi si occupa di innovazioni tecnologiche e applicazioni della fisica in ambito industriale e medicale."
+    tag: "lucia"
+
+  - name: "Giovanni Verdi"
+    area: "Events"
+    img: "/img/speakers/speaker3.jpg"
+    tag: "giovanni"
+    desc: "Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica.Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica. Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica."
+
+  - name: "Mario Rossi"
+    area: "Coordinator"
+    img: "/img/speakers/speaker1.jpg"
+    desc: "Esperto in teorie delle stringhe e gravità quantistica, il Prof. Rossi ha pubblicato numerosi articoli di punta nel settore."
+    tag: "mario"
+
+  - name: "Lucia Bianchi"
+    area: "Sponsor"
+    img: "/img/speakers/speaker2.jpg"
+    desc: "La Dott.ssa Bianchi si occupa di innovazioni tecnologiche e applicazioni della fisica in ambito industriale e medicale."
+    tag: "lucia"
+
+  - name: "Giovanni Verdi"
+    area: "Events"
+    img: "/img/speakers/speaker3.jpg"
+    tag: "giovanni"
+    desc: "Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica.Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica. Con un background in astrofisica sperimentale, il Prof. Verdi ha guidato progetti internazionali di osservazione cosmica."

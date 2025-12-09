@@ -77,6 +77,8 @@ schedule:
           name: mariatheresia, Maria
           room: Theresien
           tag: ''
+        subactivities:
+          - title: <a href="https://mariatheresia.com/english-pages/home-en" target="_blank">Mariatheresia</a>
   - day: Tuesday
     date: 24/02/2026
     activity:

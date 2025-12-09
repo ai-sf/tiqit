@@ -1,4 +1,25 @@
 cards:
+    - name: "Research Groups"
+      zoom: false
+      size: "small"
+      items:
+        - title: "IQOQI"
+          tag: "iqoqi"
+          site: "https://www.iqoqi.at/en/"
+          link: "https://www.linkedin.com/company/iqoqi/"
+          img: "img/partners/LogoIQOQI.png"
+        - img: img/partners/bec.jpg
+          title: "BEC"
+          tag: "bec"
+          site: "http://bec.science.unitn.it/"
+        - img: img/partners/nanolab.jpg
+          title: "NanoLabs"
+          tag: "nanolabs"
+          site: "http://nanolab.physics.unitn.it/"
+          link: "https://www.linkedin.com/company/nano-labs"
+        # - title: "Q@TN"
+        #   site: "https://www.quantumtrento.eu/"
+        #   img: "img/partners/Qattn.jpg"
     - name: "Hosts"
       zoom: true
       items:
@@ -76,22 +97,3 @@ cards:
     #     tag: "pizzium"
     #     map: "https://www.google.com/maps/place/Pizzium+-+Trento/@46.0642472,11.0882127,14.4z/data=!4m10!1m2!2m1!1spizzium!3m6!1s0x4782770f93442e3f:0xa1e31a15c182d5eb!8m2!3d46.0647969!4d11.1229636!15sCgdwaXp6aXVtIgOIAQFaCSIHcGl6eml1bZIBEHBpenphX3Jlc3RhdXJhbnTgAQA!16s%2Fg%2F11v0mlksn8?entry=ttu"
 
-    - name: "Research Groups"
-      zoom: false
-      size: "small"
-      items:
-        - img: img/partners/bec.jpg
-          title: "BEC"
-          tag: "bec"
-          site: "http://bec.science.unitn.it/"
-        - img: img/partners/nanolab.jpg
-          title: "NanoLabs"
-          tag: "nanolabs"
-          site: "http://nanolab.physics.unitn.it/"
-        - title: "IQOQI"
-          tag: "iqoqi"
-          site: "https://www.iqoqi.at/en/"
-          img: "img/partners/LogoIQOQI.png"
-        # - title: "Q@TN"
-        #   site: "https://www.quantumtrento.eu/"
-        #   img: "img/partners/Qattn.jpg"

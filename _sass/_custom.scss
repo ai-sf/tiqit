@@ -39,11 +39,6 @@ ul.dashed > li:before{
     text-align: right;
 }
 
-.card-action.links a{
-    margin-right: 44px !important;
-    margin-left: 44px !important;
-}
-
 .collapsible-header > .row{
     flex:auto;
     margin:0px;
@@ -85,6 +80,11 @@ ul.dashed > li:before{
     margin-right: 6px;
 }
 
+.card-action.links i.fa-brands {
+    font-size: 24px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
 
 .card-title-custom{
     font-size: 18pt !important;
