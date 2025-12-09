@@ -369,7 +369,7 @@ $card-reveal-max-h: 120vh; // modifica se vuoi più/meno spazio
 
 // PARTNERS
 
-.partners-grid .row {
+.partners-grid .row { // non usato??
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -383,6 +383,31 @@ $card-reveal-max-h: 120vh; // modifica se vuoi più/meno spazio
   padding: 20px;
 }
 
+.partner-wrapper {
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+.partner-label {
+  position: absolute;
+  top: -20px;
+  left: 57%;
+  transform: translateX(-50%);
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  /* padding: 2px 6px; */
+  border-radius: 4px;
+  white-space: nowrap; /* evita il wrapping */
+}
+@media (max-width: 992px) {
+  .partner-label {
+    font-size: 1.5rem;
+  }
+}
+
 .partner-logo {
   max-height: 120px;
   width: auto;
@@ -393,7 +418,7 @@ $card-reveal-max-h: 120vh; // modifica se vuoi più/meno spazio
   transform: scale(1.05);
 }
 .partners-grid .col,
-.row.center-align > .col {
+.row.center-align > .col { // non usato??
   margin-bottom: 70px; 
 }
 
