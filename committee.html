@@ -22,7 +22,7 @@ title: Organising Committee
 /* Forza 4 colonne su desktop largo */
 @media (min-width: 771px) {
   .committee-grid {
-    gap: 15px;
+    gap: 20px;
     max-width: calc(4 * 220px + 3 * 15px); /* 4 card + 3 gap */
   }
 
@@ -35,37 +35,42 @@ title: Organising Committee
 /* ------ CARD ------ */
 .member-card {
   width: 200px;
-  padding: 15px;
-  border: 1px solid #ddd;
+  padding: 13px;
+  /* border: 1px solid #ddd; */
   border-radius: 25px;
   background-color: #fff;
-  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   text-align: left;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.member-card:hover {
+/* .member-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
+} */
 
 .member-card img {
-  width: 168px; 
-  height: 168px;
+  width: 150px; 
+  height: 150px;
   object-fit: cover;
   border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  display: block;
 }
 
 /* ------ CARD TEXT ------ */
 .member-area {
   color: #199b3c;
-  font-size: 1.1rem;
+  font-size: 0.8rem;
+  font-weight: 600;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
 .member-name {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin-bottom: 8px;
   margin-top: 10px;
@@ -313,10 +318,11 @@ text-align: justify;
             </div>
         {% endfor %}
         </section>
+        <br>
   </div>
 
 
-    <!-- POPUP -->
+    <!-- POPUP
     <div id="popup-overlay" class="popup-overlay">
         <div class="popup-card">
             <button class="popup-close">
@@ -327,13 +333,13 @@ text-align: justify;
             <p id="popup-area"></p>
             <p id="popup-desc"></p>
         </div>
-    </div>
+    </div> -->
 </div>
 
 
 
 
-<script>
+<!-- <script>
 document.addEventListener("DOMContentLoaded", () => {
   const cards = document.querySelectorAll(".member-card");
   const overlay = document.getElementById("popup-overlay");
@@ -418,4 +424,4 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-</script>
+</script> -->

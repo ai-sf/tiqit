@@ -44,7 +44,7 @@ sections:
             - text: "insurance;"
             - text: "everything else not included in: 'such fee will cover'."       
         - text: "Due to the level of the program, only students in their 3<sup>rd</sup> year of bachelor or in their master will be considered (if your studies are not structured in a 3+2 configuration and you are not sure if you are eligible, please contact us.) Having attended an university lecture of <b>Quantum Mechanics</b> is the minimum requirement."
-        # - text: "The selection criteria are presented here. <a class='chip custom1 white-text' href='../files/TIQIT26_selection_criteria.pdf' target='_blank' style='font-size: 14px; float: right;'> Selection Criteria </a>"
+        - text: "The selection criteria are presented here. <a class='chip custom1 white-text' href='../files/TIQIT26_selection_criteria.pdf' target='_blank' style='font-size: 14px; float: right;'> Selection Criteria </a>"
         - text: "Please note that unfortunately we are not able to provide scholarships and/or bursaries for any students at this time."
 
     - name: "Terms"
