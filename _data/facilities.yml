@@ -3,11 +3,6 @@ cards:
       zoom: false
       size: "small"
       items:
-        - title: "IQOQI"
-          tag: "iqoqi"
-          site: "https://www.iqoqi.at/en/"
-          link: "https://www.linkedin.com/company/iqoqi/"
-          img: "img/partners/LogoIQOQI.png"
         - img: img/partners/bec.jpg
           title: "BEC"
           tag: "bec"
@@ -17,6 +12,11 @@ cards:
           tag: "nanolabs"
           site: "http://nanolab.physics.unitn.it/"
           link: "https://www.linkedin.com/company/nano-labs"
+        - img: "img/partners/LogoIQOQI.png"
+          title: "IQOQI"
+          tag: "iqoqi"
+          site: "https://www.iqoqi.at/en/"
+          link: "https://www.linkedin.com/company/iqoqi/"
         # - title: "Q@TN"
         #   site: "https://www.quantumtrento.eu/"
         #   img: "img/partners/Qattn.jpg"

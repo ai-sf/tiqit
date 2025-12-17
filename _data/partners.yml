@@ -5,7 +5,7 @@ cards:
       items:
         - title: "Physics Department of Trento"
           site: "http://www.physics.unitn.it/en"
-          img: "img/partners/logodipfisica.png"
+          img: "img/partners/logodipfisica_eng.png"
         # - title: "TIFPA"
         #   site: "https://home.infn.it/en/"
         #   img: "img/partners/logo_INFN.png"
