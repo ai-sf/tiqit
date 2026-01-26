@@ -28,15 +28,15 @@ title: Partners
 
 <div class="section">
   <div class="row center-align">
-    {% for partner in site.data.partners2.cards[0].items %}
+    {% for partner2 in site.data.partners2.cards[0].items %}
       <div class="col s12 m4 l4">
         <div class="partner-wrapper">
-          {% if partner.label %}
-            <div class="partner-label">{{ partner.label }}</div>
+          {% if partner2.label %}
+            <div class="partner-label">{{ partner2.label }}</div>
           {% endif %}
-          <a href="{{ partner.site }}" target="_blank" rel="noopener">
-            <img src="{{ site.url }}/{{ partner.img }}"
-                alt="{{ partner.title }}"
+          <a href="{{ partner2.site }}" target="_blank" rel="noopener">
+            <img src="{{ site.url }}/{{ partner2.img }}"
+                alt="{{ partner2.title }}"
                 class="responsive-img partner-logo">
           </a>
         </div>
