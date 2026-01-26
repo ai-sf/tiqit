@@ -1,0 +1,16 @@
+text: Partners
+mail: tiqit@ai-sf.it
+cards:
+    - size: "small"
+      items:
+        - title: "Ephos"
+          site: "htts://ephos.io"
+          img: "img/partners/ephos.png"
+        # - title: "ThinkQuantum"
+        #   site: "https://home.infn.it/en/"
+        #   img: "img/partners/logo_INFN.png"
+        # - title: "Leos Instruments"
+        #   site: "https://www.tifpa.infn.it/"
+        #   img: "img/partners/nuovo-logo-TIFPA.png"
+       
+          

@@ -27,6 +27,25 @@ title: Partners
 </p>
 
 <div class="section">
+  <div class="row center-align">
+    {% for partner in site.data.partners2.cards[0].items %}
+      <div class="col s12 m4 l4">
+        <div class="partner-wrapper">
+          {% if partner.label %}
+            <div class="partner-label">{{ partner.label }}</div>
+          {% endif %}
+          <a href="{{ partner.site }}" target="_blank" rel="noopener">
+            <img src="{{ site.url }}/{{ partner.img }}"
+                alt="{{ partner.title }}"
+                class="responsive-img partner-logo">
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<div class="section">
   <div class="row">
     <div class="col s12">
       <h4>Support us</h4>
