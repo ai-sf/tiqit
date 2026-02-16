@@ -213,7 +213,7 @@ schedule:
           room: Room "Stringa"
           tag: 'fbk'
         subactivities:
-          - title: "<b>Quantum fluids of light</b><br><br><a href=\"https://iacopo.carusotto.physics.unitn.it/\" target=\"_blank\"><u>Dr. Iacopo Carusotto</u></a>,\_(CNR-INO)"
+          - title: "<b>Quantum Phase Transitions in ultracold gases: Para-ferromagnet and Superfluid-Mott Insulator</b><br><br><a href=\"https://recati.physics.unitn.it/\" target=\"_blank\"><u>Dr. Alessio Recati</u></a>,\_(CNR-INO)"
       - hour: '10:00'
         name: Plenary lecture
         location:
@@ -221,7 +221,7 @@ schedule:
           room: Room "Stringa"
           tag: 'fbk'
         subactivities:
-          - title: "<b>Quantum Phase Transitions in ultracold gases: Para-ferromagnet and Superfluid-Mott Insulator</b><br><br><a href=\"https://recati.physics.unitn.it/\" target=\"_blank\"><u>Dr. Alessio Recati</u></a>,\_(CNR-INO)"
+          - title: "<b>Quantum fluids of light</b><br><br><a href=\"https://iacopo.carusotto.physics.unitn.it/\" target=\"_blank\"><u>Dr. Iacopo Carusotto</u></a>,\_(CNR-INO)"
       - hour: '11:00'
         name: Coffee break
         location:
