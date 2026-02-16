@@ -132,8 +132,14 @@ script: home.js
             {% for partner in site.data.partners.cards[0].items %}
             <img src="{{ site.url }}/{{ partner.img }}" alt="{{ partner.title }}">
             {% endfor %}
+            {% for partner in site.data.partners.cards2[0].items %}
+            <img src="{{ site.url }}/{{ partner.img }}" alt="{{ partner.title }}">
+            {% endfor %}
           <!-- Second set (duplicato) -->
             {% for partner in site.data.partners.cards[0].items %}
+            <img src="{{ site.url }}/{{ partner.img }}" alt="{{ partner.title }}">
+            {% endfor %}
+            {% for partner in site.data.partners.cards2[0].items %}
             <img src="{{ site.url }}/{{ partner.img }}" alt="{{ partner.title }}">
             {% endfor %}
         </div>
