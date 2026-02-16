@@ -59,99 +59,114 @@ title: Programme
                                         </div>
                                     </div>
                                     <div class="collapsible-body">
-                                        {% if act.title %}
-                                            <div class="row">
-                                                <div class="col s1 right-align">
+                                        <div class="row" style="margin-bottom: 0;">
+                                            <div class="col s12 m9 l8 schedule-text-col">
+                                                {% if act.title %}
+                                                    <div class="row">
+                                                        <div class="col s1 right-align">
 
-                                                </div>
-                                                <div class="col s11">
-                                                    <b> {{act.title}} </b>
-                                                </div>
-                                            </div>
-                                        {% endif %}
-                                        {% if act.location %}
-                                            {% if act.location.name %}
+                                                        </div>
+                                                        <div class="col s11">
+                                                            <b> {{act.title}} </b>
+                                                        </div>
+                                                    </div>
+                                                {% endif %}
+                                                {% if act.location %}
+                                                    {% if act.location.name %}
+                                                            {% assign photo =  "img/facilities/gen.jpg" %}
+                                                            {% for x in site.data.facilities.cards %}
+                                                                {% for y in x.items %}
+                                                                    {% if y.tag == act.location.tag %}
+                                                                        {% assign photo = y.img%}
+                                                                    {% endif %}
+                                                                {% endfor %}
+                                                            {% endfor %}
+
+                                                                <div class="row">
+                                                                    <div class ="col s1 right-align">
+                                                                        <i class="material-icons">room</i>
+                                                                    </div>
+                                                                    <div class="col s11">
+                                                                    <a class="chip hoverable" href="{{site.url}}/facilities/#{{act.location.tag}}">
+                                                                        <img src="{{site.url}}/{{photo}}" alt="Contact Person">
+                                                                {{act.location.name}}
+                                                                </a>
+                                                                </div>
+                                                                </div>
+                                                            {% if act.location.room %}
+                                                            <div class="row">
+                                                            <div class="col s11  offset-s1">
+                                                            {{act.location.room}}
+                                                        </div>
+                                                        </div>
+                                                            {% endif %}
+                                                    {% endif %}
+                                                {% endif %}
+                                                {% if act.group %}
                                                     {% assign photo =  "img/facilities/gen.jpg" %}
+                                                    {% assign disp =  "Group" %}
                                                     {% for x in site.data.facilities.cards %}
                                                         {% for y in x.items %}
-                                                            {% if y.tag == act.location.tag %}
+                                                            {% if y.tag == act.group %}
                                                                 {% assign photo = y.img%}
+                                                                {% assign disp = y.title %}
                                                             {% endif %}
                                                         {% endfor %}
                                                     {% endfor %}
-
-                                                        <div class="row">
-                                                            <div class ="col s1 right-align">
-                                                                <i class="material-icons">room</i>
-                                                            </div>
-                                                            <div class="col s11">
-                                                            <a class="chip hoverable" href="{{site.url}}/facilities/#{{act.location.tag}}">
-                                                                <img src="{{site.url}}/{{photo}}" alt="Contact Person">
-                                                           {{act.location.name}}
-                                                         </a>
-                                                         </div>
-                                                         </div>
-                                                    {% if act.location.room %}
                                                     <div class="row">
-                                                    <div class="col s11  offset-s1">
-                                                     {{act.location.room}}
-                                                 </div>
-                                                 </div>
-                                                     {% endif %}
-                                            {% endif %}
-                                        {% endif %}
-                                        {% if act.group %}
-                                            {% assign photo =  "img/facilities/gen.jpg" %}
-                                            {% assign disp =  "Group" %}
-                                            {% for x in site.data.facilities.cards %}
-                                                {% for y in x.items %}
-                                                    {% if y.tag == act.group %}
-                                                        {% assign photo = y.img%}
-                                                        {% assign disp = y.title %}
-                                                    {% endif %}
-                                                {% endfor %}
-                                            {% endfor %}
-                                            <div class="row">
-                                                <div class ="col s1 right-align">
-                                                    <i class="material-icons">school</i>
-                                                </div>
-                                                <div class="col s11">
-                                                <a class="chip hoverable" href="{{site.url}}/facilities/#{{act.group}}">
-                                                    <img src="{{site.url}}/{{photo}}" alt="Contact Person">
-                                               {{disp}}
-                                             </a>
-                                             </div>
-                                             </div>
-
-                                        {% endif %}
-                                        {% if act.subactivities %}
-                                            <div class="row">
-                                                <div class="col s1 right-align">
-                                                    <i class="material-icons">person</i>
-                                                </div>
-                                                <div class="col s11">
-                                                    Talks
-                                                </div>
-                                            </div>
-
-                                            {% for sub in act.subactivities %}
-                                                <div class="row">
-                                                    <div class="col s6 m4 offset-s1 offset-m1">{{sub.people.name}}</div>
-                                                    <div class="col s6 m7">
-                                                        <div class="bold">
-                                                            {{sub.title}}
+                                                        <div class ="col s1 right-align">
+                                                            <i class="material-icons">school</i>
                                                         </div>
-                                                        {% if sub.abstract %}
-                                                            <div class="italic">
-                                                                {{sub.abstract}}
-                                                            </div>
-                                                        {% endif %}
+                                                        <div class="col s11">
+                                                        <a class="chip hoverable" href="{{site.url}}/facilities/#{{act.group}}">
+                                                            <img src="{{site.url}}/{{photo}}" alt="Contact Person">
+                                                    {{disp}}
+                                                    </a>
+                                                    </div>
                                                     </div>
 
-                                                </div>
-                                            {% endfor %}
-                                        {% endif %}
+                                                {% endif %}
+                                                {% if act.subactivities %}
+                                                    <div class="row">
+                                                        <div class="col s1 right-align">
+                                                            <i class="material-icons">person</i>
+                                                        </div>
+                                                        <div class="col s11">
+                                                            Talks
+                                                        </div>
+                                                    </div>
 
+                                                    {% for sub in act.subactivities %}
+                                                        <div class="row">
+                                                            <div class="col s6 m4 offset-s1 offset-m1">{{sub.people.name}}</div>
+                                                            <div class="col s6 m7">
+                                                                <div class="bold">
+                                                                    {{sub.title}}
+                                                                </div>
+                                                                {% if sub.abstract %}
+                                                                    <div class="italic">
+                                                                        {{sub.abstract}}
+                                                                    </div>
+                                                                {% endif %}
+                                                            </div>
+
+                                                        </div>
+                                                    {% endfor %}
+                                                {% endif %}
+                                            </div>
+
+
+                                            <div class="col s12 m3 l3 right-align">
+                                                {% if act.image %}
+                                                    <img
+                                                    src="{{ site.url }}/{{ act.image }}"
+                                                    alt="{{ act.image_alt | default: act.name }}"
+                                                    class="responsive-img materialboxed schedule-poster"
+                                                    style="border-radius: 16px;"
+                                                    >
+                                                {% endif %}
+                                            </div>
+                                        </div>
                                     </div>
                                 </li>
                             {% endfor %}
@@ -181,3 +196,12 @@ title: Programme
         </div>
     </div>
 </div>
+
+
+<style>
+    @media only screen and (min-width: 601px) {
+        .schedule-text-col {
+            padding-left: 4% !important; 
+        }
+    }
+</style>
