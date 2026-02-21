@@ -3,7 +3,7 @@
         param = window.location.hash.substr(1)
         if(param){
             console.log($("#"+param));
-            $().css("z-index", 50);
+            // $().css("z-index", 50);
             $("#"+param).css("z-index", 100);
             $("#overlay").show();
             $('html, body').animate({

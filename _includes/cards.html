@@ -13,7 +13,10 @@
         <div class="row animate-on-scroll">
             {% for item in cards.items %}
                 <div class="col s12 m{{size}}" >
-                    <div {% if item.tag%} id="{{item.tag}}" {% endif %} class="card sticky-action custom {% if cards.zoom == true %} zoom-image {% endif %}">
+                    {% if item.tag %}
+                      <span id="{{ item.tag }}" class="anchor-offset"></span>
+                    {% endif %}
+                    <div class="card sticky-action custom {% if cards.zoom == true %} zoom-image {% endif %}" style="z-index: 10;">
                         <div class="card-image valign-wrapper">
                             <img src="{{ site.url}}/{{ item.img }}" class="activator">
                         </div>
