@@ -17,8 +17,8 @@ schedule:
       - hour: '16:00'
         name: Opening Ceremony
         location:
-          name: https://maps.app.goo.gl/3qYSg5VdZDsw9sKW6
-          room: Room TBD
+          name: https://maps.app.goo.gl/rVMhkqz7zpAkKV4H7
+          room:  
           tag: ''
         subactivities:
           - title: Kick-offevent and welcome reception
@@ -28,44 +28,44 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
-          room: Room TBD
+          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck
+          room:  
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
           name: IQOQI Schrödingersaal 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
         subactivities:
-          - title: '<table> <tbody><tr>  <td>  <p>Lecture: <b>Manfred Mark – Introduction to Ultracold Gases</b></p>  </td> </tr></tbody></table>'
+          - title: <b>Introduction to Ultracold Quantum Gases</b><br><b><br></b><br><a href="https://iqoqi.at/en/people/staff/staff/manfred-mark">Priv. Doz. Dr. Manfred Mark</a>, <a href="https://www.erbium.at/FF/">Ferlaino Lab - Dipolar Quantum Gases</a>
       - hour: '10:00'
         name: Plenary lecture
         location:
           name: IQOQI Schrödingersaal 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
         subactivities:
-          - title: 'Lecture: <b>Klemens Hammerer – Quantum Optics and Quantum Metrology</b><table><tbody></tbody></table>'
+          - title: <b>Quantum Optics and Quantum Metrology</b><br><b><br></b><br><a href="https://scholar.google.com/citations?user=QNEaMsQAAAAJ&amp;hl=de">Univ.-Prof. Dr. Klemens Hammerer</a>, <a href="https://www.uibk.ac.at/en/th-physik/quantum-optics-and-quantum-metrology/">Quantum Optics and Quantum Metrology</a>
       - hour: '11:00'
         name: Coffee break
         location:
           name: IQOQI 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
       - hour: '11:30'
         name: Plenary lecture
         location:
           name: IQOQI Schrödingersaal 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
         subactivities:
-          - title: 'Lecture: <b>Gerhard Kirchmair - Superconducting Quantum Circuits</b>'
+          - title: <b>Superconducting Quantum Circuits</b><br><b><br></b><br><a href="https://kirchmair.iqoqi.at/de/people/mitarbeiter/staff/gerhard-kirchmair">Univ.-Prof. Dr. Gerhard Kirchmair</a>, <a href="https://kirchmair.iqoqi.at/de/">Kirchmair Lab - Superconducting Quantum Circuits</a>
       - hour: '12:30'
         name: Group photo
         location:
           name: TBD
-          room: Room TBD
+          room:  
           tag: ''
       - hour: '13:00'
         name: Lunch
@@ -77,13 +77,15 @@ schedule:
         name: Lab tours part I
         location:
           name: 'Meeting point: Schrödinger Saal'
-          room: Room TBD
+          room:  
           tag: ''
+        subactivities:
+          - title: University and IQOQI
       - hour: '16:30'
         name: Free time
         location:
           name: TBD
-          room: Room TBD
+          room:  
           tag: ''
       - hour: '19:30'
         name: Dinner
@@ -97,39 +99,39 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
-          room: Room TBD
+          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck
+          room:  
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
           name: IQOQI Schrödingersaal 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
         subactivities:
-          - title: 'Lecture: <b>Robert Ott – Quantum Science Theory</b>'
+          - title: <b>Quantum Science Theory</b><br><b><br></b><br><a href="https://scholar.google.com/citations?user=Ay2J5TkAAAAJ&amp;hl=en">Dr. Robert Ott</a>, <a href="https://iqoqi.at/en/people/workgroup-staff/pichler-gruppe?group=20108">Pichler Group - Quantum Science Theory</a>
       - hour: '10:00'
         name: Plenary lecture
         location:
           name: IQOQI Schrödingersaal 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
         subactivities:
-          - title: 'Lecture: <b>Alex Impertro – Quantum Science and Technology Atom by Atom</b>'
+          - title: <b>Quantum Science Atom-by-Atom</b><br><b><br></b><br><a href="https://scholar.google.com/citations?user=1l-dJrkAAAAJ">Dr. Alexander Impertro</a>, <a href="https://bernienlab.com/">Bernien Lab - Quantum Science Atom-by-Atom</a>
       - hour: '11:00'
         name: Coffee break
         location:
           name: IQOQI 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
       - hour: '11:30'
         name: Plenary lecture
         location:
           name: IQOQI Schrödingersaal 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
         subactivities:
-          - title: 'Lecture: <b>Christian Roos – Quantum Simulation &amp; Quantum Measurements</b>'
+          - title: <b>Quantum Physics with Trapped Ions</b><br><b><br></b><br><a href="https://iqoqi.at/en/people/staff/staff/christian-roos">Ass.-Prof. Dr. Christian Roos</a>, <a href="https://quantumoptics.at/en/">Blatt Lab - Quantum Optics and Spectroscopy</a>
       - hour: '12:30'
         name: Lunch
         location:
@@ -140,25 +142,27 @@ schedule:
         name: Lab tours part II
         location:
           name: 'Meeting point: Schrödinger Saal'
-          room: Room TBD
+          room:  
           tag: ''
+        subactivities:
+          - title: IQOQI and University
       - hour: '16:00'
-        name: Poster Session
+        name: Poster Session & meeting with UIBK PhD students
         location:
           name: IQOQI 3rd Floor
-          room: Room TBD
-          tag: ''
-      - hour: '18:00'
+          room:  
+          tag: 'iqoqi'
+      - hour: '17:30'
         name: Free time
         location:
           name: TBD
-          room: Room TBD
+          room:  
           tag: ''
       - hour: '19:30'
-        name: Dinner
+        name: Pizza Dinner
         location:
-          name: La Trattoria, Sparkassenpl. 5, 6020 Innsbruck, Austria
-          room: Room TBD
+          name: La Trattoria, Sparkassenpl. 5, 6020 Innsbruck
+          room:  
           tag: ''
   - day: Wednesday
     date: 25/02/2026
@@ -166,42 +170,42 @@ schedule:
       - hour: '07:00'
         name: Wake up and breakfast
         location:
-          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck, Austria
-          room: Room TBD
+          name: Youth Hostel Innsbruck, Reichenauer Str. 147, 6020 Innsbruck
+          room:  
           tag: ''
       - hour: '09:00'
         name: Plenary lecture
         location:
           name: IQOQI Schrödingersaal 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
         subactivities:
-          - title: 'Lecture: <b>Alberto Canali – Ultracold Quantum Matter</b>'
+          - title: <b>(Fermionic) Quantum Mixtures</b><br><b><br></b><br><a href="https://scholar.google.com/citations?user=alsKO5YAAAAJ">Alberto Canali</a>, <a href="https://quantummatter.at/">Grimm Lab - Ultracold Atoms and Quantum Gases</a><b></b>
       - hour: '10:00'
         name: Plenary lecture
         location:
           name: IQOQI Schrödingersaal 3rd Floor
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'iqoqi'
         subactivities:
-          - title: 'Lecture: <b>Francesca Ferlaino – Dipolar Quantum Gases</b>'
+          - title: <b>Dipolar Quantum Gases</b><br><b><br></b><br><a href="https://www.erbium.at/FF/team/francesca-ferlaino/">Univ.-Prof. Dr. Francesca Ferlaino</a>, <a href="https://www.erbium.at/FF/">Ferlaino Lab - Dipolar Quantum Gases</a>
       - hour: '11:00'
         name: Coffee Break
         location:
           name: TBD
-          room: Room TBD
+          room:  
           tag: ''
       - hour: '11:30'
-        name: 'Activity: Tour of Campus and MIP Day of Physics'
+        name: MIP-day of physics
         location:
-          name: TBD
-          room: Room TBD
+          name: Natwi Building
+          room:  
           tag: ''
       - hour: '12:30'
         name: Discussion with Francesca Ferlaino
         location:
-          name: TBD
-          room: Room TBD
+          name: Natwi Building, HS Vorbereitung
+          room:  
           tag: ''
       - hour: '13:00'
         name: Lunch
@@ -212,8 +216,8 @@ schedule:
       - hour: '15:24'
         name: Train to Trento
         location:
-          name: TBD
-          room: Room TBD
+          name: Innsbruck Central Train Station
+          room:  
           tag: ''
       - hour: '18:02'
         name: Arrival in Trento and check in at hostel
@@ -227,11 +231,11 @@ schedule:
           name: Forsterbräu Trento, Via Paolo Oss
           room: Mazzurana, 38, 38122 Trento TN, Italia
           tag: ''
-      - hour: '21:30'
+      - hour: '21:00'
         name: Quiz and game night
         location:
           name: Collegio Clesio, Via Santa Margherita, 3/15, 38122 Trento TN, Italia
-          room: Room TBD
+          room:  
           tag: ''
   - day: Thursday
     date: 26/02/2026
@@ -247,29 +251,29 @@ schedule:
         location:
           name: FBK
           room: Room "Stringa"
-          tag: ''
+          tag: 'fbk'
         subactivities:
-          - title: "<b>Quantum Phase Transitions in ultracold gases: Para-ferromagnet and Superfluid-Mott Insulator</b><br><br><a href=\"https://recati.physics.unitn.it/\" target=\"_blank\"><u>Dr. Alessio Recati</u></a>,\_(CNR-INO)"
+          - title: "<b>Quantum Phase Transitions in ultracold gases: Para-ferromagnet and Superfluid-Mott Insulator</b><br><br><a href=\"https://recati.physics.unitn.it/\" target=\"_blank\"><u>Dr. Alessio Recati</u></a>,\_(CNR-INO),\_<a href=\"https://bec.science.unitn.it/BEC/0_Home.html\">Pitaevskii Center for Bose-Einstein Condensation</a>"
       - hour: '10:00'
         name: Plenary lecture
         location:
           name: FBK
           room: Room "Stringa"
-          tag: ''
+          tag: 'fbk'
         subactivities:
-          - title: "<b>Quantum fluids of light</b><br><br><a href=\"https://iacopo.carusotto.physics.unitn.it/\" target=\"_blank\"><u>Dr. Iacopo Carusotto</u></a>,\_(CNR-INO)"
+          - title: "<b>Quantum fluids of light</b><br><br><a href=\"https://iacopo.carusotto.physics.unitn.it/\" target=\"_blank\"><u>Dr. Iacopo Carusotto</u></a>,\_(CNR-INO),\_<a href=\"https://bec.science.unitn.it/BEC/0_Home.html\" target=\"_blank\"><u>Pitaevskii Center for Bose-Einstein Condensation</u></a>"
       - hour: '11:00'
         name: Coffee break
         location:
           name: Bar FBK, Via Sommarive, 18, 38123 Povo TN, Italia
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'fbk'
       - hour: '11:30'
         name: Plenary lecture
         location:
           name: FBK
           room: Room "Stringa"
-          tag: ''
+          tag: 'fbk'
         subactivities:
           - title: <b>Introduction to quantum photonics</b><br><br><a href="https://webapps.unitn.it/du/en/Persona/PER0212584" target="_blank">prof. Stefano Azzini</a>, <a href="https://nanolab.physics.unitn.it/" target="_blank">NanoLab</a>
       - hour: '12:30'
@@ -277,13 +281,13 @@ schedule:
         location:
           name: Povo0
           room: Room Ex Tesi
-          tag: ''
+          tag: 'physunitn'
       - hour: '14:00'
         name: Lab tour
         location:
           name: Povo0
-          room: Room TBD
-          tag: ''
+          room:  
+          tag: 'physunitn'
         subactivities:
           - title: 2 BEC Labs and 2 Photonics Labs
       - hour: '17:00'
@@ -291,19 +295,19 @@ schedule:
         location:
           name: Povo2
           room: Hall
-          tag: ''
+          tag: 'physunitn'
         image: img/events/speed_date_tiqit.png
-      - hour: '19:00'
+      - hour: '19:30'
         name: Buffet dinner with traditional food
         location:
           name: Locanda del Gatto Gordo, Via Camillo Cavour, 40, 38122 Trento TN, Italia
-          room: Room TBD
+          room:  
           tag: ''
       - hour: '21:00'
         name: Beer&Physics
         location:
           name: Locanda del Gatto Gordo, Via Camillo Cavour, 40, 38122 Trento TN, Italia
-          room: Room TBD
+          room:  
           tag: ''
         image: img/events/B_P_TIQIT_26.jpg
         subactivities:
@@ -321,7 +325,7 @@ schedule:
         name: Plenary lecture
         location:
           name: Circoscrizione Povo
-          room: Room TBD
+          room:  
           tag: ''
         subactivities:
           - title: <b>Introduction to applications of quantum photonics<br></b><br><a href="https://webapps.unitn.it/du/en/Persona/PER0145788" target="_blank">dr. Alessio Baldazzi</a>, <a href="https://nanolab.physics.unitn.it/" target="_blank">NanoLab</a>
@@ -329,41 +333,41 @@ schedule:
         name: Plenary lecture
         location:
           name: Circoscrizione Povo
-          room: Room TBD
+          room:  
           tag: ''
         subactivities:
-          - title: <a href="https://webapps.unitn.it/du/en/Persona/PER0232836">Alberto Biella</a>, <a href="https://webapps.unitn.it/du/en/Persona/PER0245259">Andrea Legramandi</a>, <a href="https://webapps.unitn.it/du/en/Persona/PER0016084">Alessandro Roggero</a>
+          - title: <a href="https://webapps.unitn.it/du/en/Persona/PER0232836" target="_blank">Alberto Biella</a>, <a href="https://webapps.unitn.it/du/en/Persona/PER0245259" target="_blank">Andrea Legramandi</a>, <a href="https://webapps.unitn.it/du/en/Persona/PER0016084" target="_blank">Alessandro Roggero</a>,<br><br>(<a href="https://hauke-group.physics.unitn.it/">Group's website</a>)
       - hour: '11:00'
         name: Lunch and Master and PhD presentations
         location:
           name: Circoscrizione Povo
-          room: Room TBD
+          room:  
           tag: ''
       - hour: '14:30'
         name: Workshop Q. computing
         location:
           name: Povo2
           room: B106
-          tag: ''
+          tag: 'physunitn'
         subactivities:
           - title: <a href="https://webapps.unitn.it/du/en/Persona/PER0267083">dr. Matteo Michele Wauters</a>, <a href="https://webapps.unitn.it/du/en/Persona/PER0270407">David Pascual Solis</a>, <a href="https://webapps.unitn.it/du/en/Persona/PER0272765">dr. Chiara Capecci</a>.<br><br><a href="https://hauke-group.physics.unitn.it/">Group's webiste</a>
       - hour: '18:00'
         name: Closing ceremony
         location:
           name: Fondazione Bruno Kessler _ Polo Umanistico, Via Santa Croce, 77, 38122 Trento TN, Italia
-          room: Room TBD
+          room:  
           tag: ''
       - hour: '20:00'
         name: Pizza Party
         location:
-          name: TBD
-          room: Room TBD
+          name: Caprizza Trento, Via Roma, 50, 38122 Trento TN, Italia
+          room:  
           tag: ''
       - hour: '21:30'
         name: Trento City tour
         location:
-          name: TBD
-          room: Room TBD
+          name: Trento
+          room:  
           tag: ''
   - day: Saturday
     date: 28/02/2026
@@ -378,13 +382,13 @@ schedule:
         name: FBK lab tour
         location:
           name: Fondazione Bruno Kessler, Via Sommarive, 18, 38123 Povo TN, Italia
-          room: Room TBD
-          tag: ''
-      - hour: '11:00'
-        name: Lunch
+          room:  
+          tag: 'fbk'
+      - hour: '11:30'
+        name: Lunch and free time
         location:
-          name: TBD
-          room: Room TBD
+          name: Trento
+          room: City center
           tag: ''
       - hour: '14:00'
         name: MUSE - science museum
